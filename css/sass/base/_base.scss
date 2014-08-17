@@ -6,7 +6,6 @@
 
 // Mixins
 @import 'mixins/flash';
-@import 'mixins/grid-item-columns';
 
 // Extends
 @import 'extends/button';
@@ -20,3 +19,5 @@
 @import 'lists';
 @import 'flashes';
 @import 'buttons';
+@import 'navigation';
+@import 'custom';

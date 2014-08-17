@@ -1,5 +1,6 @@
 // Typography
-$sans-serif: $helvetica;
+$sans-serif: 'PT Sans', sans-serif;
+$sans-serif-2: 'Titillium Web', sans-serif;
 $serif: $georgia;
 $base-font-family: $sans-serif;
 $header-font-family: $base-font-family;
@@ -12,16 +13,21 @@ $header-line-height: $base-font-size * 1.25;
 $base-border-radius: em(3);
 
 // Colors
+$mint: #48CFAD;
+$dark-mint: #37BC9B;
 $blue: #477DCA;
-$dark-gray: #333;
-$medium-gray: #999;
-$light-gray: #DDD;
+$dark-gray: #434A54;
+$medium-gray: #E6E9ED;
+$light-gray: #F5F7FA;
 $light-red: #FBE3E4;
-$light-yellow: #FFF6BF;
-$light-green: #E6EFC2;
+$light-yellow: #FFCE54;
+$light-green: $mint;
+
 
 // Background Color
-$base-background-color: white;
+$base-background-color: $light-gray;
+$navigation-background-color: $dark-gray;
+$intro-background-color: $dark-mint;
 
 // Font Colors
 $base-font-color: $dark-gray;
