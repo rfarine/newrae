@@ -382,7 +382,7 @@ input[type="submit"] {
             width: 12em; } }
 
 .footer {
-  background: #818181;
+  background: #434a54;
   padding: 3em 1.618em;
   width: 100%; }
   .footer .footer-logo {
@@ -480,3 +480,32 @@ body {
 
 .cv {
   background-color: #f5f7fa; }
+  .cv .cv-block {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 1em; }
+    .cv .cv-block:after {
+      content: "";
+      display: table;
+      clear: both; }
+    .cv .cv-block .cv-year {
+      padding: 2em 0;
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 14.70196%; }
+      .cv .cv-block .cv-year:last-child {
+        margin-right: 0; }
+      .cv .cv-block .cv-year h4 {
+        color: #37bc9b;
+        line-height: 1.6; }
+    .cv .cv-block .cv-entry {
+      float: left;
+      display: block;
+      margin-right: 2.35765%;
+      width: 82.94039%;
+      padding: 2em;
+      background-color: transparent; }
+      .cv .cv-block .cv-entry:last-child {
+        margin-right: 0; }

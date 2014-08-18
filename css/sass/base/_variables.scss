@@ -24,6 +24,7 @@ $light-gray: #F5F7FA;
 
 // Background Color
 $base-background-color: $light-gray;
+$footer-background-color: $dark-gray;
 // -- section background colors
 $intro-background-color: $dark-mint;
 $cv-background-color: $light-gray;
@@ -32,6 +33,10 @@ $cv-background-color: $light-gray;
 $navigation-background-color: $dark-gray;
 $navigation-link-color: $medium-gray;
 $navigation-hover-color: darken($navigation-link-color, 10);
+
+// CV
+$cv-year-color: $dark-mint;
+$cv-entry-background-color: transparent;
 
 // Font Colors
 $base-font-color: $dark-gray;
