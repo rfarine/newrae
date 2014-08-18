@@ -1,13 +1,27 @@
 // General
+body {
+  margin: 0 auto;
+}
+
 .container {
   @include fill-parent;
 }
+
+.section {
+  @include padding(3em null);
+  section {
+    @include outer-container;
+  }
+}
+
 // Introduction
 .intro {
   background-color: $intro-background-color;
-  section {
-    @include outer-container;
-    aside { @include span-columns(3); }
-    article { @include span-columns(9); }
-  }
+  aside { @include span-columns(3); }
+  article { @include span-columns(9); }
+}
+
+.cv {
+  background-color: $cv-background-color;
+  
 }
