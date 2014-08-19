@@ -458,12 +458,21 @@ input[type="submit"] {
   box-sizing: border-box; }
   .chart span {
     display: block;
-    font-size: 2em;
+    width: 100%;
+    font-size: 2.5em;
     font-weight: normal; }
   .chart canvas {
     position: absolute;
     left: 0;
     top: 0; }
+
+.stack-environment-list {
+  display: inline-block; }
+  .stack-environment-list span {
+    display: block;
+    width: 100%;
+    font-size: 2.5em;
+    font-weight: normal; }
 
 body {
   margin: 0 auto; }
@@ -531,3 +540,73 @@ body {
       background-color: transparent; }
       .cv .cv-block .cv-entry:last-child {
         margin-right: 0; }
+
+.stack-environment-text {
+  text-align: center; }
+
+@font-face {
+  font-family: pictonic;
+  src: url("../fonts/pictonic.eot");
+  src: url("../fonts/pictonic.eot?#iefix") format("embedded-opentype"), url("../fonts/pictonic.ttf") format("truetype"), url("../fonts/pictonic.woff") format("woff"), url("../fonts/pictonic.svg") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+.icon {
+  font-family: "pictonic";
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important;
+  font-smoothing: antialiased !important;
+  line-height: 1em; }
+
+a.icon, span.icon, small.icon {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline; }
+
+[class^="icon-"], [class*="icon-"] {
+  font-family: "pictonic";
+  font-weight: normal;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-font-smoothing: antialiased !important;
+  font-smoothing: antialiased !important;
+  line-height: 1em; }
+
+a[class^="icon-"], a[class*="icon-"], span[class^="icon-"], span[class*="icon-"], small[class^="icon-"], small[class*="icon-"] {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline; }
+
+.icon-dbs-postgresql:before {
+  content: ""; }
+
+.icon-dbs-redis:before {
+  content: ""; }
+
+.icon-vc-git:before {
+  content: ""; }
+
+.icon-prog-ruby:before {
+  content: ""; }
+
+.icon-prog-js02:before {
+  content: ""; }
+
+.icon-prog-coffeescr:before {
+  content: ""; }
+
+.icon-prog-rails:before {
+  content: ""; }
+
+.icon-html5-02:before {
+  content: ""; }
+
+.icon-css3-02:before {
+  content: ""; }
+
+.icon-prog-jquery:before {
+  content: ""; }
