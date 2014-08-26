@@ -45,6 +45,7 @@ a[class^="icon-"], a[class*="icon-"], span[class^="icon-"], span[class*="icon-"]
   *display: inline;
 }
   
+ 
 .icon-dbs-postgresql:before { content:""; } 
 .icon-dbs-redis:before { content:""; } 
 .icon-vc-git:before { content:""; } 
@@ -54,4 +55,13 @@ a[class^="icon-"], a[class*="icon-"], span[class^="icon-"], span[class*="icon-"]
 .icon-prog-rails:before { content:""; } 
 .icon-html5-02:before { content:""; } 
 .icon-css3-02:before { content:""; } 
-.icon-prog-jquery:before { content:""; }
+.icon-prog-jquery:before { content:""; } 
+.icon-adb-illustrator:before { content:""; } 
+.icon-adb-indesign:before { content:""; } 
+.icon-adb-photoshop:before { content:""; } 
+.icon-os-linux:before { content:""; } 
+.icon-os-apple:before { content:""; } 
+.icon-dbs-mysql:before { content:""; } 
+.icon-dbs-sqlite:before { content:""; } 
+.icon-github-01:before { content:""; } 
+.icon-prog-bash02:before { content:""; }
