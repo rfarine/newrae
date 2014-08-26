@@ -33,10 +33,15 @@ $cv-background-color: $light-gray;
 $navigation-background-color: $dark-gray;
 $navigation-link-color: $medium-gray;
 $navigation-hover-color: darken($navigation-link-color, 10);
+$navigation-logo-color: $mint;
+$navigation-logo-background-color: darken($dark-gray, 10);
 
 // CV
 $cv-year-color: $dark-mint;
 $cv-entry-background-color: transparent;
+
+// Stack
+$stack-environment-list-background: fade-out($yellow, 0.5);
 
 // Font Colors
 $base-font-color: $dark-gray;

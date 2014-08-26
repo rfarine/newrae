@@ -17,25 +17,6 @@
   height: $centered-navigation-height;
   width: 100%;
   z-index: 9999;
-  
-  // Mobile view
-
-  .mobile-logo {
-    display: inline;    
-    float: left;
-    max-height: $centered-navigation-height;
-    padding-left: $centered-navigation-padding;
-
-    img {
-      max-height: $centered-navigation-height;
-      opacity: .6;
-      padding: .8em 0;
-    }
-
-    @include media($horizontal-bar-mode) {
-      display: none;
-    }
-  }
 
   .centered-navigation-menu-button {
     color: $centered-navigation-color;
@@ -120,20 +101,6 @@
     }
   }
 
-  li.logo.nav-link {
-    display: none;
-    line-height: 0;
-
-    @include media($large-screen) {
-      display: inline;
-    }
-  }
-
-  .logo img {
-    margin-bottom: -$centered-navigation-logo-height / 3;
-    max-height: $centered-navigation-logo-height;
-    opacity: .6;
-  }
 
   // Sub menus
 

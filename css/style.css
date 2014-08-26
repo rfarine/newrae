@@ -216,18 +216,6 @@ input[type="submit"] {
   height: 60px;
   width: 100%;
   z-index: 9999; }
-  .centered-navigation .mobile-logo {
-    display: inline;
-    float: left;
-    max-height: 60px;
-    padding-left: 1em; }
-    .centered-navigation .mobile-logo img {
-      max-height: 60px;
-      opacity: .6;
-      padding: .8em 0; }
-    @media screen and (min-width: 53.75em) {
-      .centered-navigation .mobile-logo {
-        display: none; } }
   .centered-navigation .centered-navigation-menu-button {
     color: #aab2bd;
     display: block;
@@ -293,16 +281,6 @@ input[type="submit"] {
       display: inline-block; }
       .centered-navigation ul li.nav-link a:hover {
         color: #8d98a7; }
-  .centered-navigation li.logo.nav-link {
-    display: none;
-    line-height: 0; }
-    @media screen and (min-width: 53.75em) {
-      .centered-navigation li.logo.nav-link {
-        display: inline; } }
-  .centered-navigation .logo img {
-    margin-bottom: -0.66667em;
-    max-height: 2em;
-    opacity: .6; }
   .centered-navigation li.more.nav-link {
     padding-right: 0; }
     @media screen and (min-width: 53.75em) {
@@ -385,11 +363,6 @@ input[type="submit"] {
   background: #434a54;
   padding: 3em 1.618em;
   width: 100%; }
-  .footer .footer-logo {
-    text-align: center;
-    margin-bottom: 2em; }
-    .footer .footer-logo img {
-      height: 3em; }
   .footer .footer-links {
     margin-bottom: 1.5em; }
     .footer .footer-links:after {
@@ -543,13 +516,15 @@ body {
 
 .stack-environment-text {
   text-align: center; }
+  .stack-environment-text ul {
+    padding: 2em; }
 
 @font-face {
   font-family: pictonic;
-  src: url("../fonts/pictonic.eot");
-  src: url("../fonts/pictonic.eot?#iefix") format("embedded-opentype"), url("../fonts/pictonic.ttf") format("truetype"), url("../fonts/pictonic.woff") format("woff"), url("../fonts/pictonic.svg") format("svg");
   font-weight: normal;
-  font-style: normal; }
+  font-style: normal;
+  src: url("../fonts/pictonic.eot");
+  src: url("../fonts/pictonic.eot?#iefix") format("embedded-opentype"), url("../fonts/pictonic.woff") format("woff"), url("../fonts/pictonic.ttf") format("truetype"), url("../fonts/pictonic.svg#pictonic") format("svg"); }
 .icon {
   font-family: "pictonic";
   font-weight: normal;

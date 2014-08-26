@@ -46,4 +46,7 @@ body {
 // Stack
 .stack-environment-text {
   text-align: center;
+  ul {
+    @include padding(2em);
+  }
 }
