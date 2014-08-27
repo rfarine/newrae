@@ -514,10 +514,25 @@ body {
       .cv .cv-block .cv-entry:last-child {
         margin-right: 0; }
 
-.stack-environment-text {
+.feature-stack-text ul {
+  padding: 2em 0; }
+  .feature-stack-text ul li:hover {
+    color: #2b957a; }
+
+.stack-environment-text h2 {
+  color: #434a54;
+  text-align: center;
+  font-size: 1.5em; }
+.stack-environment-text ul {
+  padding: 1em 2em;
   text-align: center; }
-  .stack-environment-text ul {
-    padding: 2em; }
+  .stack-environment-text ul li {
+    color: rgba(67, 74, 84, 0.75);
+    font-size: 1em;
+    padding: 0 0.25em; }
+    .stack-environment-text ul li:hover {
+      color: #48cfad;
+      cursor: pointer; }
 
 @font-face {
   font-family: pictonic;

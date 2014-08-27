@@ -44,9 +44,33 @@ body {
 }
 
 // Stack
-.stack-environment-text {
-  text-align: center;
+.feature-stack-text {
   ul {
-    @include padding(2em);
+    @include padding(2em 0);
+    li {
+      &:hover {
+        color: $feature-stack-text-hover;
+      }
+    }
+  }
+}
+.stack-environment-text {
+  h2 {
+    color: $stack-environment-list-header-color;
+    text-align: center;
+    font-size: 1.5em;
+  }
+  ul {
+    @include padding(1em 2em);
+    text-align: center;
+    li {
+      color: $stack-environment-list-text-color;
+      font-size: 1em;
+      @include padding(0 0.25em);
+      &:hover {
+        color: $stack-environment-list-text-hover;
+        cursor: pointer;
+      }
+    }
   }
 }
