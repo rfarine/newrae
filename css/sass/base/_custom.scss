@@ -55,11 +55,6 @@ body {
   }
 }
 .stack-environment-text {
-  h2 {
-    color: $stack-environment-list-header-color;
-    text-align: center;
-    font-size: 1.5em;
-  }
   ul {
     @include padding(1em 2em);
     text-align: center;

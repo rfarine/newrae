@@ -44,6 +44,9 @@ $stack-environment-list-header-color: $dark-gray;
 $stack-environment-list-text-color: fade-out($dark-gray, 0.25);
 $stack-environment-list-text-hover: $mint;
 
+// Tool-tips
+$tool-tip-background-color: fade-out($yellow, 0.15);
+
 // Font Colors
 $base-font-color: $dark-gray;
 $base-accent-color: $medium-gray;
