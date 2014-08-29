@@ -21,24 +21,24 @@ body {
   article { @include span-columns(9); }
 }
 
-// CV
-.cv {
-  background-color: $cv-background-color;
-  .cv-block {
+// Resume
+.resume {
+  background-color: $resume-background-color;
+  .resume-block {
     @include outer-container;
     @include margin(null null 1em null);
-    .cv-year { 
+    .resume-year { 
       @include padding(2em 0);
       @include span-columns(2); 
       h4 {
-        color: $cv-year-color;
+        color: $resume-year-color;
         line-height: 1.6;
       }
     }
-    .cv-entry { 
+    .resume-entry { 
       @include span-columns(10); 
       @include padding(2em 2em);
-      background-color: $cv-entry-background-color;
+      background-color: $resume-entry-background-color;
     }
   }
 }

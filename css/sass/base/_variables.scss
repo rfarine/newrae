@@ -27,16 +27,16 @@ $base-background-color: $light-gray;
 $footer-background-color: $dark-gray;
 // -- section background colors
 $intro-background-color: $dark-mint;
-$cv-background-color: $light-gray;
+$resume-background-color: $light-gray;
 
 // Navigation
 $navigation-background-color: $dark-gray;
 $navigation-link-color: $medium-gray;
 $navigation-hover-color: darken($navigation-link-color, 10);
 
-// CV
-$cv-year-color: $dark-mint;
-$cv-entry-background-color: transparent;
+// Resume
+$resume-year-color: $dark-mint;
+$resume-entry-background-color: transparent;
 
 // Stack
 $feature-stack-text-hover: darken($dark-mint,10);
