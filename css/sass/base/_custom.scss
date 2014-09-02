@@ -69,3 +69,19 @@ body {
     }
   }
 }
+
+// Contact Form
+.contact {
+  background-color: $contact-background-color;
+  article { @include outer-container; }
+  h1 {
+    color: $contact-header-color;
+  }
+}
+
+.contact-text {
+  @include span-columns(4);
+  p {
+    color: $contact-text-color;
+  }
+}

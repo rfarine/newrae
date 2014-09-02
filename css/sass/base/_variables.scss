@@ -28,6 +28,7 @@ $footer-background-color: $dark-gray;
 // -- section background colors
 $intro-background-color: $dark-mint;
 $resume-background-color: $light-gray;
+$contact-background-color: $dark-gray;
 
 // Navigation
 $navigation-background-color: $dark-gray;
@@ -43,6 +44,10 @@ $feature-stack-text-hover: darken($dark-mint,10);
 $stack-environment-list-header-color: $dark-gray;
 $stack-environment-list-text-color: fade-out($dark-gray, 0.25);
 $stack-environment-list-text-hover: $mint;
+
+// Contact
+$contact-text-color: $light-gray;
+$contact-header-color: $light-gray;
 
 // Tool-tips
 $tool-tip-background-color: fade-out($yellow, 0.15);

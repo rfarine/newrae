@@ -567,6 +567,29 @@ body {
       color: #48cfad;
       cursor: pointer; }
 
+.contact {
+  background-color: #434a54; }
+  .contact article {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto; }
+    .contact article:after {
+      content: "";
+      display: table;
+      clear: both; }
+  .contact h1 {
+    color: #f5f7fa; }
+
+.contact-text {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%; }
+  .contact-text:last-child {
+    margin-right: 0; }
+  .contact-text p {
+    color: #f5f7fa; }
+
 @font-face {
   font-family: pictonic;
   font-weight: normal;
