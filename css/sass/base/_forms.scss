@@ -31,7 +31,7 @@ textarea,
 select[multiple=multiple] {
   @include box-sizing(border-box);
   @include transition(border-color);
-  background-color: white;
+  background-color: $form-background-color;
   border-radius: $form-border-radius;
   border: 1px solid $form-border-color;
   box-shadow: $form-box-shadow;
@@ -42,11 +42,11 @@ select[multiple=multiple] {
   width: 100%;
 
   &:hover {
-    border-color: $form-border-color-hover;
+    background-color: $form-background-color-hover;
   }
 
   &:focus {
-    border-color: $form-border-color-focus;
+    background-color: $form-background-color-focus;
     box-shadow: $form-box-shadow-focus;
     outline: none;
   }

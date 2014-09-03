@@ -1,6 +1,5 @@
 // Typography
 $sans-serif: 'PT Sans', sans-serif;
-$sans-serif-2: 'Titillium Web', sans-serif;
 $serif: $georgia;
 $base-font-family: $sans-serif;
 $header-font-family: $base-font-family;
@@ -10,16 +9,17 @@ $base-font-size: 1em;
 $base-line-height: $base-font-size * 1.5;
 $unitless-line-height: $base-line-height / ($base-line-height * 0 + 1); // Strip units from line-height: https://developer.mozilla.org/en-US/docs/Web/CSS/line-height#Prefer_unitless_numbers_for_line-height_values
 $header-line-height: $base-font-size * 1.25;
-$base-border-radius: em(3);
+$base-border-radius: em(0);
 
 // Colors
 $mint: #48CFAD;
 $dark-mint: #37BC9B;
 $grapefruit: #DA4453;
 $yellow: #FFCE54;
-$dark-gray: #434A54;
-$medium-gray: #AAB2BD;
-$light-gray: #F5F7FA;
+$dark-gray: #393939;
+$medium-gray: lighten($dark-gray, 20);
+$light-gray: lighten($dark-gray, 70);
+$black: darken($dark-gray, 10);
 
 
 // Background Color
@@ -30,10 +30,13 @@ $intro-background-color: $dark-mint;
 $resume-background-color: $light-gray;
 $contact-background-color: $dark-gray;
 
+// Intro
+$intro-header-color: darken($intro-background-color, 20);
+
 // Navigation
 $navigation-background-color: $dark-gray;
-$navigation-link-color: $medium-gray;
-$navigation-hover-color: darken($navigation-link-color, 10);
+$navigation-link-color: $light-gray;
+$navigation-hover-color: $dark-mint;
 
 // Resume
 $resume-year-color: $dark-mint;
@@ -47,10 +50,13 @@ $stack-environment-list-text-hover: $mint;
 
 // Contact
 $contact-text-color: $light-gray;
-$contact-header-color: $light-gray;
+$contact-header-color: fade-out($black, 0.5);
 
 // Tool-tips
 $tool-tip-background-color: fade-out($yellow, 0.15);
+
+// Buttons
+$base-button-text-color: fade-out($black, 0.5);
 
 // Font Colors
 $base-font-color: $dark-gray;
@@ -59,11 +65,11 @@ $base-accent-color: $medium-gray;
 // Link Colors
 $base-link-color: $base-accent-color;
 $hover-link-color: darken($base-accent-color, 15);
-$base-button-color: $base-link-color;
-$hover-button-color: $hover-link-color;
+$base-button-color: $dark-mint;
+$hover-button-color: darken($base-button-color, 10);
 
 // Border color
-$base-border-color: $light-gray;
+$base-border-color: transparent;
 
 // Flash Colors
 $alert-color: $yellow;
@@ -72,11 +78,12 @@ $notice-color: $yellow;
 $success-color: $mint;
 
 // Forms
+$form-background-color: fade-out($black, 0.5);
+$form-background-color-hover: fade-out($black, 0.25);
+$form-background-color-focus: $form-background-color-hover;
 $form-border-color: $base-border-color;
-$form-border-color-hover: darken($base-border-color, 10);
-$form-border-color-focus: $base-accent-color;
 $form-border-radius: $base-border-radius;
-$form-box-shadow: inset 0 1px 3px rgba(0,0,0,0.06);
-$form-box-shadow-focus: $form-box-shadow, 0 0 5px rgba(darken($form-border-color-focus, 5), 0.7);
+$form-box-shadow: inset 0 1px 1px rgba(0,0,0,0.06);
+$form-box-shadow-focus: $form-box-shadow, 0 0 1px rgba(darken($form-background-color-focus, 5), 0.7);
 $form-font-size: $base-font-size;
 $form-font-family: $base-font-family;

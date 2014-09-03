@@ -2,12 +2,12 @@
   -webkit-font-smoothing: antialiased;
   background-color: $base-button-color;
   border-radius: $base-border-radius;
-  color: white;
+  color: $base-button-text-color;
   display: inline-block;
-  font-size: $base-font-size;
+  font-size: 1.5em;
   font-weight: bold;
   line-height: 1;
-  padding: .75em 1em;
+  @include padding(0.5em 2em);
   text-decoration: none;
 
   &:hover {
