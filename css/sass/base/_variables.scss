@@ -12,51 +12,56 @@ $header-line-height: $base-font-size * 1.25;
 $base-border-radius: em(0);
 
 // Colors
-$mint: #48CFAD;
-$dark-mint: #37BC9B;
+$red: #A55757;
+$mint: #B1CCB4;
+$dark-mint: darken($mint, 10);
 $grapefruit: #DA4453;
 $yellow: #FFCE54;
-$dark-gray: #393939;
-$medium-gray: lighten($dark-gray, 20);
+$black: #141414;
+$dark-gray: lighten($black, 12);
+$medium-gray: lighten($dark-gray, 10);
 $light-gray: lighten($dark-gray, 70);
-$black: darken($dark-gray, 10);
+
 
 
 // Background Color
 $base-background-color: $light-gray;
 $footer-background-color: $dark-gray;
 // -- section background colors
-$intro-background-color: $dark-mint;
+$intro-background-color: fade-out($dark-mint, 0.5);
 $resume-background-color: $light-gray;
-$contact-background-color: $dark-gray;
+$contact-background-color: $light-gray;
 
 // Intro
-$intro-header-color: darken($intro-background-color, 20);
+$intro-header-color: $dark-gray;
 
 // Navigation
-$navigation-background-color: $dark-gray;
-$navigation-link-color: $light-gray;
-$navigation-hover-color: $dark-mint;
+$navigation-background-color: $light-gray;
+$navigation-link-color: $dark-mint;
+$navigation-hover-color: darken($navigation-link-color, 10);
 
 // Resume
-$resume-year-color: $dark-mint;
+$resume-year-color: $red;
 $resume-entry-background-color: transparent;
 
 // Stack
-$feature-stack-text-hover: darken($dark-mint,10);
+$feature-stack-text-hover: $red;
 $stack-environment-list-header-color: $dark-gray;
 $stack-environment-list-text-color: fade-out($dark-gray, 0.25);
-$stack-environment-list-text-hover: $mint;
+$stack-environment-list-text-hover: $red;
 
 // Contact
-$contact-text-color: $light-gray;
-$contact-header-color: fade-out($black, 0.5);
+$contact-text-color: $dark-gray;
+$contact-header-color: $dark-gray;
 
 // Tool-tips
-$tool-tip-background-color: fade-out($yellow, 0.15);
+$tool-tip-background-color: fade-out($mint, 0.15);
 
 // Buttons
-$base-button-text-color: fade-out($black, 0.5);
+$base-button-text-color: darken($red, 20);
+$base-button-color: fade-out($red, 0.5);
+$hover-button-color: darken($base-button-color, 10);
+$hover-button-text-color: $base-button-text-color;
 
 // Font Colors
 $base-font-color: $dark-gray;
@@ -65,8 +70,6 @@ $base-accent-color: $medium-gray;
 // Link Colors
 $base-link-color: $base-accent-color;
 $hover-link-color: darken($base-accent-color, 15);
-$base-button-color: $dark-mint;
-$hover-button-color: darken($base-button-color, 10);
 
 // Border color
 $base-border-color: transparent;
@@ -78,8 +81,8 @@ $notice-color: $yellow;
 $success-color: $mint;
 
 // Forms
-$form-background-color: fade-out($black, 0.5);
-$form-background-color-hover: fade-out($black, 0.25);
+$form-background-color: fade-out($mint, 0.5);
+$form-background-color-hover: fade-out($form-background-color, 0.25);
 $form-background-color-focus: $form-background-color-hover;
 $form-border-color: $base-border-color;
 $form-border-radius: $base-border-radius;
@@ -87,3 +90,5 @@ $form-box-shadow: inset 0 1px 1px rgba(0,0,0,0.06);
 $form-box-shadow-focus: $form-box-shadow, 0 0 1px rgba(darken($form-background-color-focus, 5), 0.7);
 $form-font-size: $base-font-size;
 $form-font-family: $base-font-family;
+$form-text-color: $dark-gray;
+$form-placeholder-text-color: fade-out($form-text-color, 0.5);

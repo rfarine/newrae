@@ -10,8 +10,8 @@
 
 var options = {
   scaleColor: false,
-  trackColor: 'rgba(55, 188, 155, 0.25)',
-  barColor: '#37BC9B',
+  trackColor: 'rgba(177, 204, 180, 0.25)',
+  barColor: '#B1CCB4',
   lineWidth: 20,
   lineCap: 'butt',
   size: 125

@@ -31,6 +31,8 @@ textarea,
 select[multiple=multiple] {
   @include box-sizing(border-box);
   @include transition(border-color);
+  @include placeholder { color: $form-placeholder-text-color; }
+  color: $form-text-color;
   background-color: $form-background-color;
   border-radius: $form-border-radius;
   border: 1px solid $form-border-color;
