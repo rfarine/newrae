@@ -7,9 +7,9 @@
 button,
 input[type="submit"] {
   -webkit-font-smoothing: antialiased;
-  background-color: rgba(165, 87, 87, 0.5);
+  background-color: #d9b76f;
   border-radius: 0em;
-  color: #623434;
+  color: #8a6a25;
   display: inline-block;
   font-size: 1.25em;
   font-weight: 400;
@@ -18,8 +18,8 @@ input[type="submit"] {
   text-decoration: none; }
   button:hover,
   input[type="submit"]:hover {
-    background-color: rgba(132, 69, 69, 0.5);
-    color: #623434; }
+    background-color: rgba(217, 183, 111, 0.85);
+    color: rgba(138, 106, 37, 0.85); }
 
 body {
   -webkit-font-smoothing: antialiased;
@@ -234,7 +234,7 @@ input[type="submit"] {
   width: 100%;
   z-index: 9999; }
   .centered-navigation .centered-navigation-menu-button {
-    color: #92b896;
+    color: #769489;
     display: block;
     float: right;
     font-weight: 700;
@@ -246,7 +246,7 @@ input[type="submit"] {
       .centered-navigation .centered-navigation-menu-button {
         display: none; } }
     .centered-navigation .centered-navigation-menu-button:hover {
-      color: #73a479; }
+      color: #5e796f; }
   .centered-navigation .centered-navigation-wrapper {
     max-width: 68em;
     margin-left: auto;
@@ -294,10 +294,10 @@ input[type="submit"] {
         .centered-navigation ul li.nav-link a {
           padding-right: 1em; } }
     .centered-navigation ul li.nav-link a {
-      color: #92b896;
+      color: #769489;
       display: inline-block; }
       .centered-navigation ul li.nav-link a:hover {
-        color: #73a479; }
+        color: #5e796f; }
   .centered-navigation li.more.nav-link {
     padding-right: 0; }
     @media screen and (min-width: 53.75em) {
@@ -315,7 +315,7 @@ input[type="submit"] {
       right: -0.4em;
       bottom: auto;
       left: auto;
-      color: #92b896;
+      color: #769489;
       content: '\25BE'; }
   .centered-navigation li.more {
     overflow: visible;
@@ -483,10 +483,10 @@ input[type="submit"] {
     transition: all 0.2s ease-in-out;
     top: -60;
     bottom: 140%;
-    background-color: rgba(177, 204, 180, 0.85);
+    background-color: rgba(217, 183, 111, 0.85);
     border-radius: 0em;
-    box-shadow: 0 2px 1px rgba(146, 184, 150, 0.85);
-    color: rgba(70, 107, 74, 0.85);
+    box-shadow: 0 2px 1px rgba(206, 163, 71, 0.85);
+    color: rgba(98, 75, 26, 0.85);
     font-size: 0.9em;
     line-height: 1.5em;
     margin-left: -5em;
@@ -520,7 +520,7 @@ body {
       clear: both; }
 
 .intro {
-  background-color: rgba(146, 184, 150, 0.5); }
+  background-color: rgba(118, 148, 137, 0.5); }
   .intro aside {
     float: left;
     display: block;
