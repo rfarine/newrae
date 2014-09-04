@@ -93,3 +93,12 @@ body {
     color: $contact-text-color;
   }
 }
+
+// Links
+.links {
+  article { @include outer-container; }
+}
+
+.links-list {
+  li {}
+}
