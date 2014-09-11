@@ -29,19 +29,22 @@ $light-gray: lighten($dark-gray, 70);
 $base-background-color: $light-gray;
 $footer-background-color: $dark-gray;
 // -- section background colors
-$intro-background-color: fade-out($dark-mint, 0.5);
+$intro-background-color: $dark-mint;
 $resume-background-color: $light-gray;
-$contact-background-color: $light-gray;
-
-// Intro
-$intro-header-color: $dark-gray;
+$contact-background-color: $dark-mint;
+$links-background-color: $light-gray;
 
 // Navigation
 $navigation-background-color: $light-gray;
 $navigation-link-color: $dark-mint;
 $navigation-hover-color: darken($navigation-link-color, 10);
 
+// Intro
+$intro-header-color: lighten($intro-background-color, 20);
+$intro-text-color: darken($intro-background-color, 20);
+
 // Resume
+$resume-header-color: $dark-mint;
 $resume-year-color: $red;
 $resume-entry-background-color: transparent;
 
@@ -53,14 +56,18 @@ $stack-environment-list-text-hover: $red;
 
 // Contact
 $contact-text-color: $dark-gray;
-$contact-header-color: $dark-gray;
+$contact-header-color: lighten($contact-background-color, 20);
+
+// Links
+$links-list-color: $dark-gray;
+$links-list-hover-color: $red;
 
 // Tool-tips
 $tool-tip-background-color: fade-out($yellow, 0.15);
 
 // Buttons
-$base-button-text-color: darken($yellow, 30);
-$base-button-color: $yellow;
+$base-button-text-color: $dark-mint;
+$base-button-color: $mint;
 $hover-button-color: fade-out($base-button-color, 0.15);
 $hover-button-text-color: fade-out($base-button-text-color, 0.15);
 
@@ -82,7 +89,7 @@ $notice-color: $yellow;
 $success-color: $mint;
 
 // Forms
-$form-background-color: fade-out($mint, 0.5);
+$form-background-color: lighten($contact-background-color, 20);
 $form-background-color-hover: fade-out($form-background-color, 0.25);
 $form-background-color-focus: $form-background-color-hover;
 $form-border-color: $base-border-color;

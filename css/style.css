@@ -7,9 +7,9 @@
 button,
 input[type="submit"] {
   -webkit-font-smoothing: antialiased;
-  background-color: #d9b76f;
+  background-color: #b1ccb4;
   border-radius: 0em;
-  color: #8a6a25;
+  color: #769489;
   display: inline-block;
   font-size: 1.25em;
   font-weight: 400;
@@ -18,8 +18,8 @@ input[type="submit"] {
   text-decoration: none; }
   button:hover,
   input[type="submit"]:hover {
-    background-color: rgba(217, 183, 111, 0.85);
-    color: rgba(138, 106, 37, 0.85); }
+    background-color: rgba(177, 204, 180, 0.85);
+    color: rgba(118, 148, 137, 0.85); }
 
 body {
   -webkit-font-smoothing: antialiased;
@@ -122,7 +122,7 @@ select[multiple=multiple] {
   -moz-transition: border-color;
   transition: border-color;
   color: #333333;
-  background-color: rgba(177, 204, 180, 0.5);
+  background-color: #afc1ba;
   border-radius: 0em;
   border: 1px solid transparent;
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.06);
@@ -150,12 +150,12 @@ select[multiple=multiple] {
   textarea:hover,
   input[type="email"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="url"]:hover, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="month"]:hover, input[type="time"]:hover, input[type="week"]:hover,
   select[multiple=multiple]:hover {
-    background-color: rgba(177, 204, 180, 0.25); }
+    background-color: rgba(175, 193, 186, 0.75); }
   textarea:focus,
   input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus,
   select[multiple=multiple]:focus {
-    background-color: rgba(177, 204, 180, 0.25);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.06), 0 0 1px rgba(162, 194, 165, 0.7);
+    background-color: rgba(175, 193, 186, 0.75);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.06), 0 0 1px rgba(161, 182, 174, 0.7);
     outline: none; }
 
 textarea {
@@ -520,7 +520,7 @@ body {
       clear: both; }
 
 .intro {
-  background-color: rgba(118, 148, 137, 0.5); }
+  background-color: #769489; }
   .intro aside {
     float: left;
     display: block;
@@ -536,10 +536,15 @@ body {
     .intro article:last-child {
       margin-right: 0; }
   .intro h1 {
-    color: #333333; }
+    color: #afc1ba; }
+  .intro .intro-text {
+    color: #485c55;
+    text-align: justify; }
 
 .resume {
   background-color: #e5e5e5; }
+  .resume h2 {
+    color: #769489; }
   .resume .resume-block {
     max-width: 68em;
     margin-left: auto;
@@ -591,7 +596,7 @@ body {
       cursor: pointer; }
 
 .contact {
-  background-color: #e5e5e5; }
+  background-color: #769489; }
   .contact article {
     max-width: 68em;
     margin-left: auto;
@@ -601,7 +606,7 @@ body {
       display: table;
       clear: both; }
   .contact h1 {
-    color: #333333; }
+    color: #afc1ba; }
 
 .contact-text {
   float: left;
@@ -614,14 +619,30 @@ body {
   .contact-text p {
     color: #333333; }
 
-.links article {
-  max-width: 68em;
-  margin-left: auto;
-  margin-right: auto; }
-  .links article:after {
-    content: "";
-    display: table;
-    clear: both; }
+.links {
+  background-color: #e5e5e5; }
+  .links article {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto; }
+    .links article:after {
+      content: "";
+      display: table;
+      clear: both; }
+
+.links-list li {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  font-size: 3em;
+  text-align: center; }
+  .links-list li:last-child {
+    margin-right: 0; }
+  .links-list li a {
+    color: #333333; }
+    .links-list li a:hover {
+      color: #a55757; }
 
 @font-face {
   font-family: pictonic;
@@ -711,8 +732,17 @@ a[class^="icon-"], a[class*="icon-"], span[class^="icon-"], span[class*="icon-"]
 .icon-dbs-sqlite:before {
   content: ""; }
 
+.icon-prog-bash02:before {
+  content: ""; }
+
 .icon-github-01:before {
   content: ""; }
 
-.icon-prog-bash02:before {
-  content: ""; }
+.icon-twitter-3:before {
+  content: ""; }
+
+.icon-linkedin:before {
+  content: ""; }
+
+.icon-tumblr:before {
+  content: ""; }

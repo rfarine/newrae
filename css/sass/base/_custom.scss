@@ -20,11 +20,18 @@ body {
   aside { @include span-columns(3); }
   article { @include span-columns(9); }
   h1 { color: $intro-header-color; }
+  .intro-text {
+    color: $intro-text-color;
+    text-align: justify;
+  }
 }
 
 // Resume
 .resume {
   background-color: $resume-background-color;
+  h2 {
+      color: $resume-header-color;
+    }
   .resume-block {
     @include outer-container;
     @include margin(null null 1em null);
@@ -96,9 +103,20 @@ body {
 
 // Links
 .links {
+  background-color: $links-background-color;
   article { @include outer-container; }
 }
 
 .links-list {
-  li {}
+  li {
+    @include span-columns(3);
+    font-size: 3em;
+    text-align:center;
+    a {
+      color: $links-list-color;
+      &:hover {
+        color: $links-list-hover-color;
+      }
+    }
+  }
 }
