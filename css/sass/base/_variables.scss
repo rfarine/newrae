@@ -1,5 +1,6 @@
 // Typography
 $sans-serif: 'PT Sans', sans-serif;
+$display: 'Farray';
 $serif: $georgia;
 $base-font-family: $sans-serif;
 $header-font-family: $base-font-family;
@@ -15,38 +16,42 @@ $base-border-radius: em(0);
 $red: #A55757;
 $peach: #D9D3C6;
 $mint: #B1CCB4;
-$dark-mint: #769489;
-$grapefruit: #DA4453;
+$blue: #769489;
 $yellow: #D9B76F;
 $black: #141414;
 $dark-gray: lighten($black, 12);
 $medium-gray: lighten($dark-gray, 10);
 $light-gray: lighten($dark-gray, 70);
+$white: lighten($dark-gray, 90);
 
-
+// Headers
+$intro-header-font-family: $sans-serif;
 
 // Background Color
 $base-background-color: $light-gray;
 $footer-background-color: $dark-gray;
 // -- section background colors
-$intro-background-color: $dark-mint;
+$intro-background-color: $blue;
 $resume-background-color: $light-gray;
-$contact-background-color: $dark-mint;
+$contact-background-color: $blue;
 $links-background-color: $light-gray;
 
 // Navigation
 $navigation-background-color: $light-gray;
-$navigation-link-color: $dark-mint;
+$navigation-link-color: $blue;
 $navigation-hover-color: darken($navigation-link-color, 10);
 
 // Intro
-$intro-header-color: lighten($intro-background-color, 20);
+$intro-header-font-size: 3em;
+$intro-header-color: lighten($intro-background-color, 30);
 $intro-text-color: darken($intro-background-color, 20);
 
 // Resume
-$resume-header-color: $dark-mint;
+$resume-header-font-size: 2em;
+$resume-header-color: $blue;
 $resume-year-color: $red;
-$resume-entry-background-color: transparent;
+$resume-year-background-color: transparent;
+$resume-entry-background-color: fade-out($white, 0.75);
 
 // Stack
 $feature-stack-text-hover: $red;
@@ -66,7 +71,7 @@ $links-list-hover-color: $red;
 $tool-tip-background-color: fade-out($yellow, 0.15);
 
 // Buttons
-$base-button-text-color: $dark-mint;
+$base-button-text-color: $blue;
 $base-button-color: $mint;
 $hover-button-color: fade-out($base-button-color, 0.15);
 $hover-button-text-color: fade-out($base-button-text-color, 0.15);
@@ -84,7 +89,7 @@ $base-border-color: transparent;
 
 // Flash Colors
 $alert-color: $yellow;
-$error-color: $grapefruit;
+$error-color: $red;
 $notice-color: $yellow;
 $success-color: $mint;
 

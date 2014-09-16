@@ -536,7 +536,9 @@ body {
     .intro article:last-child {
       margin-right: 0; }
   .intro h1 {
-    color: #afc1ba; }
+    font-family: "PT Sans", sans-serif;
+    font-size: 3em;
+    color: #ccd7d3; }
   .intro .intro-text {
     color: #485c55;
     text-align: justify; }
@@ -544,6 +546,8 @@ body {
 .resume {
   background-color: #e5e5e5; }
   .resume h2 {
+    font-family: "PT Sans", sans-serif;
+    font-size: 2em;
     color: #769489; }
   .resume .resume-block {
     max-width: 68em;
@@ -558,11 +562,12 @@ body {
       padding: 2em 0;
       float: left;
       display: block;
-      margin-right: 2.35765%;
-      width: 14.70196%; }
+      width: 17.05961%;
+      background: transparent; }
       .resume .resume-block .resume-year:last-child {
-        margin-right: 0; }
+        width: 14.70196%; }
       .resume .resume-block .resume-year h4 {
+        font-family: "PT Sans", sans-serif;
         color: #a55757;
         line-height: 1.6; }
     .resume .resume-block .resume-entry {
@@ -571,9 +576,12 @@ body {
       margin-right: 2.35765%;
       width: 82.94039%;
       padding: 2em;
-      background-color: transparent; }
+      background-color: rgba(255, 255, 255, 0.25);
+      border-left: 5px solid #b1ccb4; }
       .resume .resume-block .resume-entry:last-child {
         margin-right: 0; }
+      .resume .resume-block .resume-entry h3 {
+        font-family: "PT Sans", sans-serif; }
 
 .stack p {
   text-align: center; }
@@ -648,8 +656,8 @@ body {
   font-family: pictonic;
   font-weight: normal;
   font-style: normal;
-  src: url("../fonts/pictonic.eot");
-  src: url("../fonts/pictonic.eot?#iefix") format("embedded-opentype"), url("../fonts/pictonic.woff") format("woff"), url("../fonts/pictonic.ttf") format("truetype"), url("../fonts/pictonic.svg#pictonic") format("svg"); }
+  src: url("../../fonts/pictonic.eot");
+  src: url("../../fonts/pictonic.eot?#iefix") format("embedded-opentype"), url("../../fonts/pictonic.woff") format("woff"), url("../../fonts/pictonic.ttf") format("truetype"), url("../../fonts/pictonic.svg#pictonic") format("svg"); }
 .icon {
   font-family: "pictonic";
   font-weight: normal;
@@ -746,3 +754,10 @@ a[class^="icon-"], a[class*="icon-"], span[class^="icon-"], span[class*="icon-"]
 
 .icon-tumblr:before {
   content: ""; }
+
+@font-face {
+  font-family: Farray;
+  font-weight: normal;
+  font-style: normal;
+  src: url("../../fonts/farray/farray.eot");
+  src: url("../../fonts/farray/farray.eot?#iefix") format("embedded-opentype"), url("../../fonts/farray/farray.woff") format("woff"), url("../../fonts/farray/farray.ttf") format("truetype"), url("../../fonts/farray/farray.svg#Farray") format("svg"); }
