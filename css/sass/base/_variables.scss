@@ -57,13 +57,15 @@ $feature-stack-text-hover: $red;
 $stack-environment-list-header-color: $dark-gray;
 $stack-environment-list-text-color: fade-out($dark-gray, 0.25);
 $stack-environment-list-text-hover: $red;
+$stack-tag-text-color: $medium-gray;
+$stack-tag-background-color: fade-out($white, 0.75);
 
 // Contact
 $contact-text-color: $dark-gray;
 $contact-header-color: $medium-gray;
 
 // Links
-$links-list-color: $red;
+$links-list-color: $dark-gray;
 $links-list-hover-color: $blue;
 
 // Tool-tips

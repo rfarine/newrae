@@ -3,7 +3,6 @@
   $tooltip-color: darken($tool-tip-background-color, 40);
   $tooltip-width: 10em;
   $tooltip-distance-from-item: 140%;
-  $tooltip-shadow: 0 2px 1px darken($tool-tip-background-color, 10);
 
   position: relative;
 
@@ -20,7 +19,6 @@
     bottom: $tooltip-distance-from-item;
     background-color: $tooltip-background;
     border-radius: $base-border-radius;
-    box-shadow: $tooltip-shadow;
     color: $tooltip-color;
     font-size: 0.9em; // Make sure you use -webkit-backface-visibility: hidden; on the body element to prevent 1px nudging bugs.
     line-height: 1.5em;
