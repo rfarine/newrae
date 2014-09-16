@@ -78,7 +78,7 @@ body {
       @include padding(0 0.25em);
       &:hover {
         color: $stack-environment-list-text-hover;
-        cursor: pointer;
+        cursor: default;
       }
     }
   }
