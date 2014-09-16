@@ -11,7 +11,7 @@
 var options = {
   scaleColor: false,
   trackColor: 'rgba(177, 204, 180, 0.25)',
-  barColor: '#B1CCB4',
+  barColor: 'rgba(118, 148, 137, 0.75)',
   lineWidth: 20,
   lineCap: 'butt',
   size: 125

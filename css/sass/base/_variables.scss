@@ -15,7 +15,6 @@ $base-border-radius: em(0);
 // Colors
 $red: #A55757;
 $peach: #D9D3C6;
-$mint: #B1CCB4;
 $blue: #769489;
 $yellow: #D9B76F;
 $black: #141414;
@@ -28,16 +27,16 @@ $white: lighten($dark-gray, 90);
 $intro-header-font-family: $sans-serif;
 
 // Background Color
-$base-background-color: $light-gray;
+$base-background-color: $peach;
 $footer-background-color: $dark-gray;
 // -- section background colors
-$intro-background-color: $blue;
-$resume-background-color: $light-gray;
-$contact-background-color: $blue;
-$links-background-color: $light-gray;
+$intro-background-color: fade-out($blue, 0.25);
+$resume-background-color: $peach;
+$contact-background-color: fade-out($white, 0.85);
+$links-background-color: fade-out($white, 0.85);
 
 // Navigation
-$navigation-background-color: $light-gray;
+$navigation-background-color: $peach;
 $navigation-link-color: $blue;
 $navigation-hover-color: darken($navigation-link-color, 10);
 
@@ -48,10 +47,10 @@ $intro-text-color: darken($intro-background-color, 20);
 
 // Resume
 $resume-header-font-size: 2.5em;
-$resume-header-color: $blue;
+$resume-header-color: $medium-gray;
 $resume-year-color: $red;
 $resume-year-background-color: transparent;
-$resume-entry-background-color: fade-out($white, 0.75);
+$resume-entry-background-color: fade-out($white, 0.85);
 
 // Stack
 $feature-stack-text-hover: $red;
@@ -61,7 +60,7 @@ $stack-environment-list-text-hover: $red;
 
 // Contact
 $contact-text-color: $dark-gray;
-$contact-header-color: lighten($contact-background-color, 20);
+$contact-header-color: $medium-gray;
 
 // Links
 $links-list-color: $dark-gray;
@@ -71,8 +70,8 @@ $links-list-hover-color: $red;
 $tool-tip-background-color: fade-out($yellow, 0.15);
 
 // Buttons
-$base-button-text-color: $blue;
-$base-button-color: $mint;
+$base-button-text-color: fade-out($white, 0.5);
+$base-button-color: $blue;
 $hover-button-color: fade-out($base-button-color, 0.15);
 $hover-button-text-color: fade-out($base-button-text-color, 0.15);
 
@@ -91,17 +90,15 @@ $base-border-color: transparent;
 $alert-color: $yellow;
 $error-color: $red;
 $notice-color: $yellow;
-$success-color: $mint;
+$success-color: $blue;
 
 // Forms
-$form-background-color: lighten($contact-background-color, 20);
+$form-background-color: fade-out($white, 0.75);
 $form-background-color-hover: fade-out($form-background-color, 0.25);
 $form-background-color-focus: $form-background-color-hover;
 $form-border-color: $base-border-color;
 $form-border-radius: $base-border-radius;
-$form-box-shadow: inset 0 1px 1px rgba(0,0,0,0.06);
-$form-box-shadow-focus: $form-box-shadow, 0 0 1px rgba(darken($form-background-color-focus, 5), 0.7);
 $form-font-size: $base-font-size;
 $form-font-family: $base-font-family;
-$form-text-color: darken($form-background-color-focus, 50);
-$form-placeholder-text-color: fade-out($form-text-color, 0.5);
+$form-text-color: $red;
+$form-placeholder-text-color: fade-out($blue, 0.5);

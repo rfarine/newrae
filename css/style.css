@@ -7,9 +7,9 @@
 button,
 input[type="submit"] {
   -webkit-font-smoothing: antialiased;
-  background-color: #b1ccb4;
+  background-color: #769489;
   border-radius: 0em;
-  color: #769489;
+  color: rgba(255, 255, 255, 0.5);
   display: inline-block;
   font-size: 1.25em;
   font-weight: 400;
@@ -18,12 +18,12 @@ input[type="submit"] {
   text-decoration: none; }
   button:hover,
   input[type="submit"]:hover {
-    background-color: rgba(177, 204, 180, 0.85);
-    color: rgba(118, 148, 137, 0.85); }
+    background-color: rgba(118, 148, 137, 0.85);
+    color: rgba(255, 255, 255, 0.35); }
 
 body {
   -webkit-font-smoothing: antialiased;
-  background-color: #e5e5e5;
+  background-color: #d9d3c6;
   color: #333333;
   font-family: "PT Sans", sans-serif;
   font-size: 1em;
@@ -121,11 +121,10 @@ select[multiple=multiple] {
   -webkit-transition: border-color;
   -moz-transition: border-color;
   transition: border-color;
-  color: rgba(50, 63, 58, 0.75);
-  background-color: #afc1ba;
+  color: #a55757;
+  background-color: rgba(255, 255, 255, 0.25);
   border-radius: 0em;
   border: 1px solid transparent;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.06);
   font-family: "PT Sans", sans-serif;
   font-size: 1em;
   margin-bottom: 0.75em;
@@ -134,28 +133,27 @@ select[multiple=multiple] {
   textarea::-webkit-input-placeholder,
   input[type="email"]::-webkit-input-placeholder, input[type="number"]::-webkit-input-placeholder, input[type="password"]::-webkit-input-placeholder, input[type="search"]::-webkit-input-placeholder, input[type="tel"]::-webkit-input-placeholder, input[type="text"]::-webkit-input-placeholder, input[type="url"]::-webkit-input-placeholder, input[type="color"]::-webkit-input-placeholder, input[type="date"]::-webkit-input-placeholder, input[type="datetime"]::-webkit-input-placeholder, input[type="datetime-local"]::-webkit-input-placeholder, input[type="month"]::-webkit-input-placeholder, input[type="time"]::-webkit-input-placeholder, input[type="week"]::-webkit-input-placeholder,
   select[multiple=multiple]::-webkit-input-placeholder {
-    color: rgba(50, 63, 58, 0.25); }
+    color: rgba(118, 148, 137, 0.5); }
   textarea::-moz-placeholder,
   input[type="email"]::-moz-placeholder, input[type="number"]::-moz-placeholder, input[type="password"]::-moz-placeholder, input[type="search"]::-moz-placeholder, input[type="tel"]::-moz-placeholder, input[type="text"]::-moz-placeholder, input[type="url"]::-moz-placeholder, input[type="color"]::-moz-placeholder, input[type="date"]::-moz-placeholder, input[type="datetime"]::-moz-placeholder, input[type="datetime-local"]::-moz-placeholder, input[type="month"]::-moz-placeholder, input[type="time"]::-moz-placeholder, input[type="week"]::-moz-placeholder,
   select[multiple=multiple]::-moz-placeholder {
-    color: rgba(50, 63, 58, 0.25); }
+    color: rgba(118, 148, 137, 0.5); }
   textarea:-moz-placeholder,
   input[type="email"]:-moz-placeholder, input[type="number"]:-moz-placeholder, input[type="password"]:-moz-placeholder, input[type="search"]:-moz-placeholder, input[type="tel"]:-moz-placeholder, input[type="text"]:-moz-placeholder, input[type="url"]:-moz-placeholder, input[type="color"]:-moz-placeholder, input[type="date"]:-moz-placeholder, input[type="datetime"]:-moz-placeholder, input[type="datetime-local"]:-moz-placeholder, input[type="month"]:-moz-placeholder, input[type="time"]:-moz-placeholder, input[type="week"]:-moz-placeholder,
   select[multiple=multiple]:-moz-placeholder {
-    color: rgba(50, 63, 58, 0.25); }
+    color: rgba(118, 148, 137, 0.5); }
   textarea:-ms-input-placeholder,
   input[type="email"]:-ms-input-placeholder, input[type="number"]:-ms-input-placeholder, input[type="password"]:-ms-input-placeholder, input[type="search"]:-ms-input-placeholder, input[type="tel"]:-ms-input-placeholder, input[type="text"]:-ms-input-placeholder, input[type="url"]:-ms-input-placeholder, input[type="color"]:-ms-input-placeholder, input[type="date"]:-ms-input-placeholder, input[type="datetime"]:-ms-input-placeholder, input[type="datetime-local"]:-ms-input-placeholder, input[type="month"]:-ms-input-placeholder, input[type="time"]:-ms-input-placeholder, input[type="week"]:-ms-input-placeholder,
   select[multiple=multiple]:-ms-input-placeholder {
-    color: rgba(50, 63, 58, 0.25); }
+    color: rgba(118, 148, 137, 0.5); }
   textarea:hover,
   input[type="email"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="url"]:hover, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="month"]:hover, input[type="time"]:hover, input[type="week"]:hover,
   select[multiple=multiple]:hover {
-    background-color: rgba(175, 193, 186, 0.75); }
+    background-color: rgba(255, 255, 255, 0); }
   textarea:focus,
   input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus,
   select[multiple=multiple]:focus {
-    background-color: rgba(175, 193, 186, 0.75);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.06), 0 0 1px rgba(161, 182, 174, 0.7);
+    background-color: rgba(255, 255, 255, 0);
     outline: none; }
 
 textarea {
@@ -227,8 +225,8 @@ input[type="submit"] {
   white-space: nowrap; }
 
 .centered-navigation {
-  background-color: #e5e5e5;
-  border-bottom: 1px solid #e0e0e0;
+  background-color: #d9d3c6;
+  border-bottom: 1px solid #d5cec0;
   font-family: "PT Sans", sans-serif;
   height: 60px;
   width: 100%;
@@ -278,7 +276,7 @@ input[type="submit"] {
     .centered-navigation .nav-link:first-child {
       margin-left: 2.2em; } }
   .centered-navigation ul li.nav-link {
-    background: #e5e5e5;
+    background: #d9d3c6;
     display: block;
     line-height: 60px;
     overflow: hidden;
@@ -365,13 +363,13 @@ input[type="submit"] {
             border-bottom-right-radius: 0em;
             padding-bottom: .7em; } }
       .centered-navigation ul.submenu li a {
-        background-color: #dddddd;
+        background-color: #d3ccbd;
         display: inline-block;
         text-align: right;
         width: 100%; }
         @media screen and (min-width: 53.75em) {
           .centered-navigation ul.submenu li a {
-            background-color: #e5e5e5;
+            background-color: #d9d3c6;
             padding-left: 1em;
             text-align: left;
             width: 12em; } }
@@ -520,7 +518,7 @@ body {
       clear: both; }
 
 .intro {
-  background-color: #769489; }
+  background-color: rgba(118, 148, 137, 0.75); }
   .intro aside {
     float: left;
     display: block;
@@ -538,17 +536,17 @@ body {
   .intro h1 {
     font-family: "PT Sans", sans-serif;
     font-size: 3em;
-    color: #ccd7d3; }
+    color: rgba(204, 215, 211, 0.75); }
   .intro .intro-text {
-    color: #485c55;
+    color: rgba(72, 92, 85, 0.75);
     text-align: justify; }
 
 .resume {
-  background-color: #e5e5e5; }
+  background-color: #d9d3c6; }
   .resume h2 {
     font-family: "PT Sans", sans-serif;
     font-size: 2.5em;
-    color: #769489; }
+    color: #4c4c4c; }
   .resume .resume-block {
     max-width: 68em;
     margin-left: auto;
@@ -576,8 +574,8 @@ body {
       margin-right: 2.35765%;
       width: 82.94039%;
       padding: 2em;
-      background-color: rgba(255, 255, 255, 0.25);
-      border-left: 5px solid #b1ccb4; }
+      background-color: rgba(255, 255, 255, 0.15);
+      border-left: 5px solid #d9b76f; }
       .resume .resume-block .resume-entry:last-child {
         margin-right: 0; }
       .resume .resume-block .resume-entry h3 {
@@ -604,7 +602,9 @@ body {
       cursor: default; }
 
 .contact {
-  background-color: #769489; }
+  background-color: rgba(255, 255, 255, 0.15);
+  border-left: 10px solid #d9b76f;
+  border-right: 10px solid #d9b76f; }
   .contact article {
     max-width: 68em;
     margin-left: auto;
@@ -614,7 +614,7 @@ body {
       display: table;
       clear: both; }
   .contact h1 {
-    color: #afc1ba; }
+    color: #4c4c4c; }
 
 .contact-text {
   float: left;
@@ -628,7 +628,7 @@ body {
     color: #333333; }
 
 .links {
-  background-color: #e5e5e5; }
+  background-color: rgba(255, 255, 255, 0.15); }
   .links article {
     max-width: 68em;
     margin-left: auto;
