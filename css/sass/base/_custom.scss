@@ -79,21 +79,16 @@ body {
 .feature-stack-text {
   @include margin(3em 0);
   ul {
+    text-align: center;
     @include padding(2em 0);
+    @include outer-container;
     li {
-      &:after {
+      @include span-columns(1); 
+      span {
         display: block;
-        border-radius: 50%;
-        background-color: $blue;
-        width: 125px;
-        height: 125px;
-        margin: 0 10px;
-        vertical-align: top;
-        position: relative;
-        padding-top: 35px;
-        line-height: 1;
-        text-align: center;
-        @include box-sizing(border-box);
+        width: 100%;
+        font-size: 2.5em;
+        font-weight: normal;
       }
       &:hover {
         color: $feature-stack-text-hover;

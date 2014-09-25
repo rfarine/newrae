@@ -561,24 +561,29 @@ body {
 .feature-stack-text {
   margin: 3em 0; }
   .feature-stack-text ul {
-    padding: 2em 0; }
-    .feature-stack-text ul li:after {
+    text-align: center;
+    padding: 2em 0;
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto; }
+    .feature-stack-text ul:after {
+      content: "";
+      display: table;
+      clear: both; }
+    .feature-stack-text ul li {
+      float: left;
       display: block;
-      border-radius: 50%;
-      background-color: #769489;
-      width: 125px;
-      height: 125px;
-      margin: 0 10px;
-      vertical-align: top;
-      position: relative;
-      padding-top: 35px;
-      line-height: 1;
-      text-align: center;
-      -webkit-box-sizing: border-box;
-      -moz-box-sizing: border-box;
-      box-sizing: border-box; }
-    .feature-stack-text ul li:hover {
-      color: #a55757; }
+      margin-right: 2.35765%;
+      width: 6.17215%; }
+      .feature-stack-text ul li:last-child {
+        margin-right: 0; }
+      .feature-stack-text ul li span {
+        display: block;
+        width: 100%;
+        font-size: 2.5em;
+        font-weight: normal; }
+      .feature-stack-text ul li:hover {
+        color: #a55757; }
 
 .stack-environment-text ul {
   margin: 1em 0;
