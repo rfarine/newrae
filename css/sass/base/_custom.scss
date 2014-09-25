@@ -81,6 +81,20 @@ body {
   ul {
     @include padding(2em 0);
     li {
+      &:after {
+        display: block;
+        border-radius: 50%;
+        background-color: $blue;
+        width: 125px;
+        height: 125px;
+        margin: 0 10px;
+        vertical-align: top;
+        position: relative;
+        padding-top: 35px;
+        line-height: 1;
+        text-align: center;
+        @include box-sizing(border-box);
+      }
       &:hover {
         color: $feature-stack-text-hover;
       }
@@ -100,6 +114,18 @@ body {
         color: $stack-environment-list-text-hover;
         cursor: default;
       }
+    }
+  }
+}
+
+.stack-environment-list {
+  li {
+    display: inline-block;
+    span {
+      display: block;
+      width: 100%;
+      font-size: 2.5em;
+      font-weight: normal;
     }
   }
 }

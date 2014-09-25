@@ -431,37 +431,6 @@ input[type="submit"] {
     max-width: 35em;
     text-align: center; }
 
-.chart {
-  display: inline-block;
-  width: 125px;
-  height: 125px;
-  margin: 0 10px;
-  vertical-align: top;
-  position: relative;
-  padding-top: 35px;
-  line-height: 1;
-  text-align: center;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; }
-  .chart span {
-    display: block;
-    width: 100%;
-    font-size: 2.5em;
-    font-weight: normal; }
-  .chart canvas {
-    position: absolute;
-    left: 0;
-    top: 0; }
-
-.stack-environment-list li {
-  display: inline-block; }
-  .stack-environment-list li span {
-    display: block;
-    width: 100%;
-    font-size: 2.5em;
-    font-weight: normal; }
-
 .tooltip-item {
   position: relative; }
   .tooltip-item:hover .tooltip {
@@ -593,6 +562,21 @@ body {
   margin: 3em 0; }
   .feature-stack-text ul {
     padding: 2em 0; }
+    .feature-stack-text ul li:after {
+      display: block;
+      border-radius: 50%;
+      background-color: #769489;
+      width: 125px;
+      height: 125px;
+      margin: 0 10px;
+      vertical-align: top;
+      position: relative;
+      padding-top: 35px;
+      line-height: 1;
+      text-align: center;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box; }
     .feature-stack-text ul li:hover {
       color: #a55757; }
 
@@ -607,6 +591,14 @@ body {
     .stack-environment-text ul li:hover {
       color: #a55757;
       cursor: default; }
+
+.stack-environment-list li {
+  display: inline-block; }
+  .stack-environment-list li span {
+    display: block;
+    width: 100%;
+    font-size: 2.5em;
+    font-weight: normal; }
 
 .contact {
   background-color: rgba(255, 255, 255, 0.15);
