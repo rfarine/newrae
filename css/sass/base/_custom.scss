@@ -80,15 +80,22 @@ body {
   @include margin(3em 0);
   ul {
     text-align: center;
-    @include padding(2em 0);
+    @include padding(2em 1.5em);
     @include outer-container;
     li {
       @include span-columns(1); 
+      width: 125px;
+      height: 125px;
+      border-radius: 50%;
+      background: $blue;
+      color: darken($blue, 30%);
       span {
         display: block;
+        @include margin(0.75em 0 0.15em 0);
         width: 100%;
         font-size: 2.5em;
         font-weight: normal;
+        color: $peach;
       }
       &:hover {
         color: $feature-stack-text-hover;

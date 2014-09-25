@@ -562,7 +562,7 @@ body {
   margin: 3em 0; }
   .feature-stack-text ul {
     text-align: center;
-    padding: 2em 0;
+    padding: 2em 1.5em;
     max-width: 68em;
     margin-left: auto;
     margin-right: auto; }
@@ -574,16 +574,23 @@ body {
       float: left;
       display: block;
       margin-right: 2.35765%;
-      width: 6.17215%; }
+      width: 6.17215%;
+      width: 125px;
+      height: 125px;
+      border-radius: 50%;
+      background: #769489;
+      color: #323f3a; }
       .feature-stack-text ul li:last-child {
         margin-right: 0; }
       .feature-stack-text ul li span {
         display: block;
+        margin: 0.75em 0 0.15em;
         width: 100%;
         font-size: 2.5em;
-        font-weight: normal; }
+        font-weight: normal;
+        color: #d9d3c6; }
       .feature-stack-text ul li:hover {
-        color: #a55757; }
+        color: #5e796f; }
 
 .stack-environment-text ul {
   margin: 1em 0;
