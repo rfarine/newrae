@@ -766,10 +766,3 @@ a[class^="icon-"], a[class*="icon-"], span[class^="icon-"], span[class*="icon-"]
 
 .icon-tumblr:before {
   content: ""; }
-
-@font-face {
-  font-family: Farray;
-  font-weight: normal;
-  font-style: normal;
-  src: url("../../fonts/farray/farray.eot");
-  src: url("../../fonts/farray/farray.eot?#iefix") format("embedded-opentype"), url("../../fonts/farray/farray.woff") format("woff"), url("../../fonts/farray/farray.ttf") format("truetype"), url("../../fonts/farray/farray.svg#Farray") format("svg"); }
