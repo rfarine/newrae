@@ -53,6 +53,8 @@ $resume-year-background-color: transparent;
 $resume-entry-background-color: fade-out($white, 0.85);
 
 // Stack
+$feature-stack-circle-background: $blue;
+$feature-stack-circle-text-color: darken($blue, 20%);
 $feature-stack-text-hover: darken($blue, 10%);
 $stack-environment-list-header-color: $dark-gray;
 $stack-environment-list-text-color: fade-out($dark-gray, 0.25);

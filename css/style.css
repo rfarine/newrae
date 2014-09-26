@@ -581,7 +581,7 @@ body {
       height: 125px;
       border-radius: 50%;
       background: #769489;
-      color: #323f3a; }
+      color: #485c55; }
       .feature-stack-text ul li:last-child {
         margin-right: 0; }
       .feature-stack-text ul li span {
@@ -593,6 +593,8 @@ body {
         color: #d9d3c6; }
       .feature-stack-text ul li:hover {
         color: #5e796f; }
+        .feature-stack-text ul li:hover span {
+          color: #5e796f; }
 
 .stack-environment-text ul {
   margin: 1em 0;

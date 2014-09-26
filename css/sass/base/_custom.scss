@@ -89,8 +89,8 @@ body {
       width: 125px;
       height: 125px;
       border-radius: 50%;
-      background: $blue;
-      color: darken($blue, 30%);
+      background: $feature-stack-circle-background;
+      color: $feature-stack-circle-text-color;
       span {
         display: block;
         @include margin(0.75em 0 0.15em 0);
@@ -101,6 +101,9 @@ body {
       }
       &:hover {
         color: $feature-stack-text-hover;
+        span {
+          color: $feature-stack-text-hover;
+        }
       }
     }
   }
