@@ -495,7 +495,7 @@ body {
     display: block;
     margin-right: 2.35765%;
     width: 23.23176%;
-    font-family: "Kraft";
+    font-family: "PT Sans", sans-serif;
     font-size: 5em;
     font-weight: 300;
     color: rgba(204, 215, 211, 0.75); }
@@ -745,10 +745,3 @@ a[class^="icon-"], a[class*="icon-"], span[class^="icon-"], span[class*="icon-"]
 
 .icon-tumblr:before {
   content: ""; }
-
-@font-face {
-  font-family: kraft;
-  font-weight: normal;
-  font-style: normal;
-  src: url("../../fonts/kraftstoff/kraftstoff.eot");
-  src: url("../../fonts/kraftstoff/kraftstoff.eot?#iefix") format("embedded-opentype"), url("../../fonts/kraftstoff/kraftstoff.woff") format("woff"), url("../../fonts/kraftstoff/kraftstoff.ttf") format("truetype"), url("../../fonts/kraftstoff/kraftstoff.svg#kraft") format("svg"); }
