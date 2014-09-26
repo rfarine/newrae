@@ -151,23 +151,3 @@ body {
     color: $contact-text-color;
   }
 }
-
-// Links
-.links {
-  background-color: $links-background-color;
-  article { @include outer-container; }
-}
-
-.links-list {
-  li {
-    @include span-columns(3);
-    font-size: 3em;
-    text-align:center;
-    a {
-      color: $links-list-color;
-      &:hover {
-        color: $links-list-hover-color;
-      }
-    }
-  }
-}
