@@ -1,6 +1,6 @@
 // Typography
 $sans-serif: 'PT Sans', sans-serif;
-$display: 'Farray';
+$display: 'Kraft';
 $serif: $georgia;
 $base-font-family: $sans-serif;
 $header-font-family: $base-font-family;
@@ -24,7 +24,7 @@ $light-gray: lighten($dark-gray, 70);
 $white: lighten($dark-gray, 90);
 
 // Headers
-$intro-header-font-family: $sans-serif;
+$intro-header-font-family: $display;
 
 // Background Color
 $base-background-color: $peach;
@@ -41,7 +41,7 @@ $navigation-link-color: $blue;
 $navigation-hover-color: darken($navigation-link-color, 10);
 
 // Intro
-$intro-header-font-size: 3em;
+$intro-header-font-size: 5em;
 $intro-header-color: lighten($intro-background-color, 30);
 $intro-text-color: darken($intro-background-color, 20);
 

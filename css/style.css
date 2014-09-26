@@ -482,27 +482,34 @@ body {
 
 .intro {
   background-color: rgba(118, 148, 137, 0.75); }
-  .intro aside {
-    float: left;
-    display: block;
-    margin-right: 2.35765%;
-    width: 23.23176%; }
-    .intro aside:last-child {
-      margin-right: 0; }
   .intro article {
+    max-width: 68em;
+    margin-left: auto;
+    margin-right: auto; }
+    .intro article:after {
+      content: "";
+      display: table;
+      clear: both; }
+  .intro h1 {
     float: left;
     display: block;
     margin-right: 2.35765%;
-    width: 74.41059%; }
-    .intro article:last-child {
-      margin-right: 0; }
-  .intro h1 {
-    font-family: "PT Sans", sans-serif;
-    font-size: 3em;
+    width: 23.23176%;
+    font-family: "Kraft";
+    font-size: 5em;
+    font-weight: 300;
     color: rgba(204, 215, 211, 0.75); }
+    .intro h1:last-child {
+      margin-right: 0; }
   .intro .intro-text {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%;
     color: rgba(72, 92, 85, 0.75);
     text-align: justify; }
+    .intro .intro-text:last-child {
+      margin-right: 0; }
 
 .resume {
   margin: 1em 0;
@@ -736,3 +743,10 @@ a[class^="icon-"], a[class*="icon-"], span[class^="icon-"], span[class*="icon-"]
 
 .icon-tumblr:before {
   content: ""; }
+
+@font-face {
+  font-family: kraft;
+  font-weight: normal;
+  font-style: normal;
+  src: url("../../fonts/kraftstoff/kraftstoff.eot");
+  src: url("../../fonts/kraftstoff/kraftstoff.eot?#iefix") format("embedded-opentype"), url("../../fonts/kraftstoff/kraftstoff.woff") format("woff"), url("../../fonts/kraftstoff/kraftstoff.ttf") format("truetype"), url("../../fonts/kraftstoff/kraftstoff.svg#kraft") format("svg"); }

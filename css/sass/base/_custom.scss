@@ -17,14 +17,16 @@ body {
 // Introduction
 .intro {
   background-color: $intro-background-color;
-  aside { @include span-columns(3); }
-  article { @include span-columns(9); }
+  article { @include outer-container;}
   h1 { 
+    @include span-columns(3);
     font-family: $intro-header-font-family;
     font-size: $intro-header-font-size;
+    font-weight: 300;
     color: $intro-header-color; 
   }
   .intro-text {
+    @include span-columns(9);
     color: $intro-text-color;
     text-align: justify;
   }
