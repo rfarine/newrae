@@ -1,1 +1,5 @@
 @import "icons";
+
+@include font-face(baron, "../../fonts/baron/baron_neue");
+@include font-face(baron-black, "../../fonts/baron/baron_neue_black");
+@include font-face(baron-bold, "../../fonts/baron/baron_neue_bold");

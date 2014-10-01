@@ -495,7 +495,7 @@ body {
     display: block;
     margin-right: 2.35765%;
     width: 23.23176%;
-    font-family: "PT Sans", sans-serif;
+    font-family: "baron", sans-serif;
     font-size: 5em;
     font-weight: 300;
     color: rgba(204, 215, 211, 0.75); }
@@ -647,8 +647,8 @@ body {
   font-family: pictonic;
   font-weight: normal;
   font-style: normal;
-  src: url("../../fonts/pictonic.eot");
-  src: url("../../fonts/pictonic.eot?#iefix") format("embedded-opentype"), url("../../fonts/pictonic.woff") format("woff"), url("../../fonts/pictonic.ttf") format("truetype"), url("../../fonts/pictonic.svg#pictonic") format("svg"); }
+  src: url("../../fonts/pictonic/pictonic.eot");
+  src: url("../../fonts/pictonic/pictonic.eot?#iefix") format("embedded-opentype"), url("../../fonts/pictonic/pictonic.woff") format("woff"), url("../../fonts/pictonic/pictonic.ttf") format("truetype"), url("../../fonts/pictonic/pictonic.svg#pictonic") format("svg"); }
 .icon {
   font-family: "pictonic";
   font-weight: normal;
@@ -745,3 +745,22 @@ a[class^="icon-"], a[class*="icon-"], span[class^="icon-"], span[class*="icon-"]
 
 .icon-tumblr:before {
   content: ""; }
+
+@font-face {
+  font-family: baron;
+  font-weight: normal;
+  font-style: normal;
+  src: url("../../fonts/baron/baron_neue.eot");
+  src: url("../../fonts/baron/baron_neue.eot?#iefix") format("embedded-opentype"), url("../../fonts/baron/baron_neue.woff") format("woff"), url("../../fonts/baron/baron_neue.ttf") format("truetype"), url("../../fonts/baron/baron_neue.svg#baron") format("svg"); }
+@font-face {
+  font-family: baron-black;
+  font-weight: normal;
+  font-style: normal;
+  src: url("../../fonts/baron/baron_neue_black.eot");
+  src: url("../../fonts/baron/baron_neue_black.eot?#iefix") format("embedded-opentype"), url("../../fonts/baron/baron_neue_black.woff") format("woff"), url("../../fonts/baron/baron_neue_black.ttf") format("truetype"), url("../../fonts/baron/baron_neue_black.svg#baron-black") format("svg"); }
+@font-face {
+  font-family: baron-bold;
+  font-weight: normal;
+  font-style: normal;
+  src: url("../../fonts/baron/baron_neue_bold.eot");
+  src: url("../../fonts/baron/baron_neue_bold.eot?#iefix") format("embedded-opentype"), url("../../fonts/baron/baron_neue_bold.woff") format("woff"), url("../../fonts/baron/baron_neue_bold.ttf") format("truetype"), url("../../fonts/baron/baron_neue_bold.svg#baron-bold") format("svg"); }

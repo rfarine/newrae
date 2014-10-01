@@ -1,6 +1,6 @@
 // Typography
 $sans-serif: 'PT Sans', sans-serif;
-//$display: '';
+$display: 'baron', sans-serif;
 $serif: $georgia;
 $base-font-family: $sans-serif;
 $header-font-family: $base-font-family;
@@ -24,7 +24,7 @@ $light-gray: lighten($dark-gray, 70);
 $white: lighten($dark-gray, 90);
 
 // Headers
-$intro-header-font-family: $sans-serif;
+$intro-header-font-family: $display;
 
 // Background Color
 $base-background-color: $peach;
