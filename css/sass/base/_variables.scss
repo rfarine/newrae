@@ -1,6 +1,8 @@
 // Typography
 $sans-serif: 'PT Sans', sans-serif;
 $display: 'baron', sans-serif;
+$display-black: 'baron-black', sans-serif;
+$display-bold: 'baron-bold', sans-serif;
 $serif: $georgia;
 $base-font-family: $sans-serif;
 $header-font-family: $base-font-family;
@@ -23,29 +25,33 @@ $medium-gray: lighten($dark-gray, 10);
 $light-gray: lighten($dark-gray, 70);
 $white: lighten($dark-gray, 90);
 
-// Headers
+// Logo
+$logo-background-color: fade-out($white, 0.75);
 $intro-header-font-family: $display;
+$intro-header-font-size: 6em;
+$intro-header-color: fade-out($blue, 0.25);
 
 // Background Color
 $base-background-color: $peach;
 $footer-background-color: $dark-gray;
 // -- section background colors
-$intro-background-color: fade-out($blue, 0.25);
+$intro-background-color: $peach;
 $resume-background-color: $peach;
 $contact-background-color: fade-out($white, 0.85);
 $links-background-color: fade-out($white, 0.85);
 
 // Navigation
-$navigation-background-color: $peach;
+$navigation-background-color: fade-out($white, 0.75);
 $navigation-link-color: $blue;
-$navigation-hover-color: darken($navigation-link-color, 10);
+$navigation-hover-color: $red;
 
 // Intro
-$intro-header-font-size: 5em;
-$intro-header-color: lighten($intro-background-color, 30);
-$intro-text-color: darken($intro-background-color, 20);
+$intro-text-font-size: 2em;
+$intro-text-color: $medium-gray;
+$intro-text-span-color: $red;
 
 // Resume
+$resume-header-font-family: $display-bold;
 $resume-header-font-size: 2.5em;
 $resume-header-color: $medium-gray;
 $resume-year-color: $red;
@@ -64,7 +70,8 @@ $stack-tag-background-color: fade-out($white, 0.75);
 
 // Contact
 $contact-text-color: $dark-gray;
-$contact-header-color: $medium-gray;
+$contact-header-color: $dark-gray;
+$contact-header-font-family: $display-bold;
 
 // Links
 $links-list-color: $peach;

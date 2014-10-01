@@ -17,18 +17,37 @@ body {
 // Introduction
 .intro {
   background-color: $intro-background-color;
+  @include margin(1em null);
   article { @include outer-container;}
-  h1 { 
-    @include span-columns(3);
-    font-family: $intro-header-font-family;
-    font-size: $intro-header-font-size;
-    font-weight: 300;
-    color: $intro-header-color; 
+  .logo-container {
+    @include span-columns(2);
+  }
+  .logo {
+    width: 185px;
+    height: 185px;
+    border-radius: 50%;
+    background-color: $logo-background-color;
+    h1 {
+      display: block;
+      font-family: $intro-header-font-family;
+      font-size: $intro-header-font-size;
+      font-weight: 300;
+      color: $intro-header-color; 
+      text-align: center;
+      @include padding(0.35em 0);
+    }
   }
   .intro-text {
     @include span-columns(9);
+    @include shift(1);
+    font-size: $intro-text-font-size;
     color: $intro-text-color;
     text-align: justify;
+    span {
+      font-family: $display-black;
+      color: $intro-text-span-color;
+      text-transform: uppercase;
+    }
   }
 }
 
@@ -37,9 +56,10 @@ body {
   @include margin(1em 0);
   background-color: $resume-background-color;
   h2 {
-      font-family: $sans-serif;
+      font-family: $resume-header-font-family;
       font-size: $resume-header-font-size;
       color: $resume-header-color;
+      font-weight: normal;
     }
   .resume-block {
     @include outer-container;
@@ -144,7 +164,9 @@ body {
   border-right: 10px solid $yellow;
   article { @include outer-container; }
   h1 {
+    font-family: $contact-header-font-family;
     color: $contact-header-color;
+    font-weight: normal;
   }
 }
 
