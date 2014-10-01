@@ -60,6 +60,7 @@ body {
       font-size: $resume-header-font-size;
       color: $resume-header-color;
       font-weight: normal;
+      @include margin(0.5em 0);
     }
   .resume-block {
     @include outer-container;
