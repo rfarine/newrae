@@ -54,7 +54,6 @@ body {
 
 // Resume
 .resume {
-  @include padding(null null 5em null);
   background-color: $resume-background-color;
   h2 {
       font-family: $resume-header-font-family;
