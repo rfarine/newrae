@@ -42,8 +42,8 @@ $links-background-color: fade-out($white, 0.85);
 
 // Navigation
 $navigation-background-color: fade-out($white, 0.75);
-$navigation-link-color: $blue;
-$navigation-hover-color: $red;
+$navigation-link-color: $medium-gray;
+$navigation-hover-color: fade-out($navigation-link-color, 0.5);
 
 // Intro
 $intro-text-font-size: 2em;

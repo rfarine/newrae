@@ -12,8 +12,8 @@
   $horizontal-bar-mode: $large-screen;
 
   background-color: $centered-navigation-background;
-  border-bottom: 1px solid darken($centered-navigation-background, 2);
-  font-family: $sans-serif;
+  font-family: $display;
+  font-size: 1.25em;
   height: $centered-navigation-height;
   width: 100%;
   z-index: 9999;

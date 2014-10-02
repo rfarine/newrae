@@ -27,6 +27,7 @@ body {
     height: 185px;
     border-radius: 50%;
     background-color: $logo-background-color;
+    box-shadow: 1px 0 1px fade-out($medium-gray, 0.85) inset;
     h1 {
       display: block;
       font-family: $intro-header-font-family;
