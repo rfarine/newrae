@@ -16,8 +16,8 @@ body {
 
 // Introduction
 .intro {
+  @include margin(4em null null null);
   background-color: $intro-background-color;
-  @include margin(1em null);
   article { @include outer-container;}
   .logo-container {
     @include span-columns(2);
@@ -53,7 +53,7 @@ body {
 
 // Resume
 .resume {
-  @include margin(1em 0);
+  @include padding(null null 5em null);
   background-color: $resume-background-color;
   h2 {
       font-family: $resume-header-font-family;
@@ -64,7 +64,7 @@ body {
     }
   .resume-block {
     @include outer-container;
-    @include margin(null null 1em null);
+    @include margin(null null 2em null);
     .resume-year { 
       @include padding(2em 0);
       @include span-columns(2, block-collapse); 
@@ -79,9 +79,12 @@ body {
       @include span-columns(10); 
       @include padding(2em 2em);
       background-color: $resume-entry-background-color;
-      border-left: 5px solid $yellow;
+      border-left: 10px solid $yellow;
       h3 { 
-        font-family: $sans-serif; 
+        font-family: $display; 
+      }
+      p {
+        font-size: 1.25em;
       }
     }
   }
@@ -161,8 +164,6 @@ body {
 // Contact Form
 .contact {
   background-color: $contact-background-color;
-  border-left: 10px solid $yellow;
-  border-right: 10px solid $yellow;
   article { @include outer-container; }
   h1 {
     font-family: $contact-header-font-family;
@@ -177,5 +178,6 @@ body {
   @include padding(1em 0em);
   p {
     color: $contact-text-color;
+    font-size: 1.25em;
   }
 }

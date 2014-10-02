@@ -133,27 +133,27 @@ select[multiple=multiple] {
   textarea::-webkit-input-placeholder,
   input[type="email"]::-webkit-input-placeholder, input[type="number"]::-webkit-input-placeholder, input[type="password"]::-webkit-input-placeholder, input[type="search"]::-webkit-input-placeholder, input[type="tel"]::-webkit-input-placeholder, input[type="text"]::-webkit-input-placeholder, input[type="url"]::-webkit-input-placeholder, input[type="color"]::-webkit-input-placeholder, input[type="date"]::-webkit-input-placeholder, input[type="datetime"]::-webkit-input-placeholder, input[type="datetime-local"]::-webkit-input-placeholder, input[type="month"]::-webkit-input-placeholder, input[type="time"]::-webkit-input-placeholder, input[type="week"]::-webkit-input-placeholder,
   select[multiple=multiple]::-webkit-input-placeholder {
-    color: rgba(118, 148, 137, 0.5); }
+    color: rgba(51, 51, 51, 0.5); }
   textarea::-moz-placeholder,
   input[type="email"]::-moz-placeholder, input[type="number"]::-moz-placeholder, input[type="password"]::-moz-placeholder, input[type="search"]::-moz-placeholder, input[type="tel"]::-moz-placeholder, input[type="text"]::-moz-placeholder, input[type="url"]::-moz-placeholder, input[type="color"]::-moz-placeholder, input[type="date"]::-moz-placeholder, input[type="datetime"]::-moz-placeholder, input[type="datetime-local"]::-moz-placeholder, input[type="month"]::-moz-placeholder, input[type="time"]::-moz-placeholder, input[type="week"]::-moz-placeholder,
   select[multiple=multiple]::-moz-placeholder {
-    color: rgba(118, 148, 137, 0.5); }
+    color: rgba(51, 51, 51, 0.5); }
   textarea:-moz-placeholder,
   input[type="email"]:-moz-placeholder, input[type="number"]:-moz-placeholder, input[type="password"]:-moz-placeholder, input[type="search"]:-moz-placeholder, input[type="tel"]:-moz-placeholder, input[type="text"]:-moz-placeholder, input[type="url"]:-moz-placeholder, input[type="color"]:-moz-placeholder, input[type="date"]:-moz-placeholder, input[type="datetime"]:-moz-placeholder, input[type="datetime-local"]:-moz-placeholder, input[type="month"]:-moz-placeholder, input[type="time"]:-moz-placeholder, input[type="week"]:-moz-placeholder,
   select[multiple=multiple]:-moz-placeholder {
-    color: rgba(118, 148, 137, 0.5); }
+    color: rgba(51, 51, 51, 0.5); }
   textarea:-ms-input-placeholder,
   input[type="email"]:-ms-input-placeholder, input[type="number"]:-ms-input-placeholder, input[type="password"]:-ms-input-placeholder, input[type="search"]:-ms-input-placeholder, input[type="tel"]:-ms-input-placeholder, input[type="text"]:-ms-input-placeholder, input[type="url"]:-ms-input-placeholder, input[type="color"]:-ms-input-placeholder, input[type="date"]:-ms-input-placeholder, input[type="datetime"]:-ms-input-placeholder, input[type="datetime-local"]:-ms-input-placeholder, input[type="month"]:-ms-input-placeholder, input[type="time"]:-ms-input-placeholder, input[type="week"]:-ms-input-placeholder,
   select[multiple=multiple]:-ms-input-placeholder {
-    color: rgba(118, 148, 137, 0.5); }
+    color: rgba(51, 51, 51, 0.5); }
   textarea:hover,
   input[type="email"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="url"]:hover, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="month"]:hover, input[type="time"]:hover, input[type="week"]:hover,
   select[multiple=multiple]:hover {
-    background-color: rgba(255, 255, 255, 0); }
+    background-color: rgba(118, 148, 137, 0.25); }
   textarea:focus,
   input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus,
   select[multiple=multiple]:focus {
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(118, 148, 137, 0.25);
     outline: none; }
 
 textarea {
@@ -481,9 +481,8 @@ body {
       clear: both; }
 
 .intro {
-  background-color: #d9d3c6;
-  margin-top: 1em;
-  margin-bottom: 1em; }
+  margin-top: 4em;
+  background-color: rgba(217, 211, 198, 0.5); }
   .intro article {
     max-width: 68em;
     margin-left: auto;
@@ -529,19 +528,19 @@ body {
       text-transform: uppercase; }
 
 .resume {
-  margin: 1em 0;
+  padding-bottom: 5em;
   background-color: #d9d3c6; }
   .resume h2 {
     font-family: "baron-bold", sans-serif;
     font-size: 2.5em;
-    color: #333333;
+    color: #769489;
     font-weight: normal;
     margin: 0.5em 0; }
   .resume .resume-block {
     max-width: 68em;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 1em; }
+    margin-bottom: 2em; }
     .resume .resume-block:after {
       content: "";
       display: table;
@@ -565,11 +564,13 @@ body {
       width: 82.94039%;
       padding: 2em;
       background-color: rgba(255, 255, 255, 0.15);
-      border-left: 5px solid #d9b76f; }
+      border-left: 10px solid #d9b76f; }
       .resume .resume-block .resume-entry:last-child {
         margin-right: 0; }
       .resume .resume-block .resume-entry h3 {
-        font-family: "PT Sans", sans-serif; }
+        font-family: "baron", sans-serif; }
+      .resume .resume-block .resume-entry p {
+        font-size: 1.25em; }
 
 .stack p {
   text-align: center; }
@@ -636,9 +637,7 @@ body {
     font-weight: normal; }
 
 .contact {
-  background-color: rgba(255, 255, 255, 0.15);
-  border-left: 10px solid #d9b76f;
-  border-right: 10px solid #d9b76f; }
+  background-color: #d9d3c6; }
   .contact article {
     max-width: 68em;
     margin-left: auto;
@@ -649,7 +648,7 @@ body {
       clear: both; }
   .contact h1 {
     font-family: "baron-bold", sans-serif;
-    color: #333333;
+    color: #769489;
     font-weight: normal; }
 
 .contact-text {
@@ -662,7 +661,8 @@ body {
   .contact-text:last-child {
     margin-right: 0; }
   .contact-text p {
-    color: #333333; }
+    color: #4c4c4c;
+    font-size: 1.25em; }
 
 @font-face {
   font-family: pictonic;
