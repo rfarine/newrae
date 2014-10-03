@@ -244,7 +244,7 @@ input[type="submit"] {
       .centered-navigation .centered-navigation-menu-button {
         display: none; } }
     .centered-navigation .centered-navigation-menu-button:hover {
-      color: rgba(76, 76, 76, 0.5); }
+      color: #769489; }
   .centered-navigation .centered-navigation-wrapper {
     max-width: 68em;
     margin-left: auto;
@@ -295,7 +295,7 @@ input[type="submit"] {
       color: #4c4c4c;
       display: inline-block; }
       .centered-navigation ul li.nav-link a:hover {
-        color: rgba(76, 76, 76, 0.5); }
+        color: #769489; }
   .centered-navigation li.more.nav-link {
     padding-right: 0; }
     @media screen and (min-width: 53.75em) {
@@ -502,8 +502,7 @@ body {
     width: 185px;
     height: 185px;
     border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.25);
-    box-shadow: 1px 0 1px rgba(76, 76, 76, 0.15) inset; }
+    background-color: rgba(255, 255, 255, 0.25); }
     .intro .logo h1 {
       display: block;
       font-family: "baron", sans-serif;
