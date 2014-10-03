@@ -121,7 +121,7 @@ select[multiple=multiple] {
   -webkit-transition: border-color;
   -moz-transition: border-color;
   transition: border-color;
-  color: #a55757;
+  color: #a16257;
   background-color: rgba(255, 255, 255, 0.25);
   border-radius: 0em;
   border: 1px solid transparent;
@@ -225,26 +225,29 @@ input[type="submit"] {
   white-space: nowrap; }
 
 .centered-navigation {
-  background-color: rgba(255, 255, 255, 0.25);
+  box-shadow: -1px -1px 5px 0px rgba(72, 92, 85, 0.15) inset;
+  border-bottom: 1px solid rgba(72, 92, 85, 0.25);
+  background-color: #769489;
   font-family: "baron", sans-serif;
   font-size: 1.25em;
   height: 60px;
   width: 100%;
   z-index: 9999; }
   .centered-navigation .centered-navigation-menu-button {
-    color: #4c4c4c;
+    color: #d9d3c6;
     display: block;
     float: right;
     font-weight: 700;
     line-height: 60px;
     margin: 0;
     padding-right: 1em;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    border-bottom: 5px solid transparent; }
     @media screen and (min-width: 53.75em) {
       .centered-navigation .centered-navigation-menu-button {
         display: none; } }
     .centered-navigation .centered-navigation-menu-button:hover {
-      color: rgba(76, 76, 76, 0.5); }
+      color: #d9d3c6; }
   .centered-navigation .centered-navigation-wrapper {
     max-width: 68em;
     margin-left: auto;
@@ -276,7 +279,7 @@ input[type="submit"] {
     .centered-navigation .nav-link:first-child {
       margin-left: 2.2em; } }
   .centered-navigation ul li.nav-link {
-    background: rgba(255, 255, 255, 0.25);
+    background: #769489;
     display: block;
     line-height: 60px;
     overflow: hidden;
@@ -292,10 +295,10 @@ input[type="submit"] {
         .centered-navigation ul li.nav-link a {
           padding-right: 1em; } }
     .centered-navigation ul li.nav-link a {
-      color: #4c4c4c;
+      color: #d9d3c6;
       display: inline-block; }
       .centered-navigation ul li.nav-link a:hover {
-        color: rgba(76, 76, 76, 0.5); }
+        color: #d9d3c6; }
   .centered-navigation li.more.nav-link {
     padding-right: 0; }
     @media screen and (min-width: 53.75em) {
@@ -313,7 +316,7 @@ input[type="submit"] {
       right: -0.4em;
       bottom: auto;
       left: auto;
-      color: #4c4c4c;
+      color: #d9d3c6;
       content: '\25BE'; }
   .centered-navigation li.more {
     overflow: visible;
@@ -363,18 +366,20 @@ input[type="submit"] {
             border-bottom-right-radius: 0em;
             padding-bottom: .7em; } }
       .centered-navigation ul.submenu li a {
-        background-color: rgba(247, 247, 247, 0.25);
+        background-color: #6e8d81;
         display: inline-block;
         text-align: right;
         width: 100%; }
         @media screen and (min-width: 53.75em) {
           .centered-navigation ul.submenu li a {
-            background-color: rgba(255, 255, 255, 0.25);
+            background-color: #769489;
             padding-left: 1em;
             text-align: left;
             width: 12em; } }
 
 .footer {
+  box-shadow: -1px 1px 5px rgba(0, 0, 0, 0.15) inset;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
   background: #333333;
   padding: 3em 1.618em;
   width: 100%; }
@@ -525,7 +530,7 @@ body {
       margin-right: 0; }
     .intro .intro-text span {
       font-family: "baron-black", sans-serif;
-      color: #a55757;
+      color: #a16257;
       text-transform: uppercase; }
 
 .resume {
@@ -555,7 +560,7 @@ body {
         width: 14.70196%; }
       .resume .resume-block .resume-year h4 {
         font-family: "PT Sans", sans-serif;
-        color: #a55757;
+        color: #a16257;
         line-height: 1.6; }
     .resume .resume-block .resume-entry {
       float: left;
@@ -625,7 +630,7 @@ body {
     font-size: 1em;
     padding: 0 0.5em; }
     .stack-environment-text ul li:hover {
-      color: #a55757;
+      color: #a16257;
       cursor: default; }
 
 .stack-environment-list li {
