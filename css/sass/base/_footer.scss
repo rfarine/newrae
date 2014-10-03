@@ -4,8 +4,6 @@
   $footer-link-color: transparentize($footer-color, .6);
   $footer-disclaimer-color: transparentize($footer-color, .6);
 
-  box-shadow: -1px 1px 5px fade-out(darken($footer-background-color, 20), 0.85) inset;
-  border-top: 1px solid fade-out(darken($footer-background-color, 20), 0.5);
   background: $footer-background;
   padding: $base-line-height*2 $gutter;
   width: 100%;

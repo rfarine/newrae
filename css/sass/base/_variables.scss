@@ -15,7 +15,7 @@ $header-line-height: $base-font-size * 1.25;
 $base-border-radius: em(0);
 
 // Colors
-$red: #a16257;
+$red: #A55757;
 $peach: #D9D3C6;
 $blue: #769489;
 $yellow: #D9B76F;
@@ -41,9 +41,9 @@ $contact-background-color: $peach;
 $links-background-color: fade-out($white, 0.85);
 
 // Navigation
-$navigation-background-color: $blue;
-$navigation-link-color: $peach;
-$navigation-hover-color: $peach;
+$navigation-background-color: fade-out($white, 0.75);
+$navigation-link-color: $medium-gray;
+$navigation-hover-color: fade-out($navigation-link-color, 0.5);
 
 // Intro
 $intro-text-font-size: 2em;

@@ -11,8 +11,6 @@
   $centered-navigation-item-nudge: 2.2em;
   $horizontal-bar-mode: $large-screen;
 
-  box-shadow: -1px -1px 5px 0px fade-out(darken($centered-navigation-background, 20), 0.85) inset;
-  border-bottom: 1px solid fade-out(darken($centered-navigation-background, 20), 0.75);
   background-color: $centered-navigation-background;
   font-family: $display;
   font-size: 1.25em;
@@ -29,7 +27,6 @@
     margin: 0;
     padding-right: $centered-navigation-submenu-padding;
     text-transform: uppercase;
-    border-bottom: 5px solid transparent;
 
     @include media ($horizontal-bar-mode) {
       display: none;
