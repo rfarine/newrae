@@ -25,6 +25,10 @@ $medium-gray: lighten($dark-gray, 10);
 $light-gray: lighten($dark-gray, 70);
 $white: lighten($dark-gray, 90);
 
+// Mobile
+$tablet: new-breakpoint(max-width 768px 8);
+$mobile: new-breakpoint(max-width 480px 4);
+
 // Logo
 $logo-background-color: fade-out($white, 0.75);
 $intro-header-font-family: $display;

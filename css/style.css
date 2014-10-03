@@ -471,6 +471,10 @@ body {
 .section {
   padding-top: 3em;
   padding-bottom: 3em; }
+  @media screen and (max-width: 480px) {
+    .section {
+      padding-top: 1em;
+      padding-bottom: 1em; } }
   .section section {
     max-width: 68em;
     margin-left: auto;
@@ -479,10 +483,17 @@ body {
       content: "";
       display: table;
       clear: both; }
+    @media screen and (max-width: 480px) {
+      .section section {
+        width: 90%;
+        margin: 0 auto; } }
 
 .intro {
   margin-top: 4em;
   background-color: rgba(217, 211, 198, 0.5); }
+  @media screen and (max-width: 480px) {
+    .intro {
+      margin-top: 1em; } }
   .intro article {
     max-width: 68em;
     margin-left: auto;
@@ -498,11 +509,23 @@ body {
     width: 14.70196%; }
     .intro .logo-container:last-child {
       margin-right: 0; }
+    @media screen and (max-width: 480px) {
+      .intro .logo-container {
+        float: left;
+        display: block;
+        margin-right: 7.42297%;
+        width: 100%;
+        margin-bottom: 4em; }
+        .intro .logo-container:last-child {
+          margin-right: 0; } }
   .intro .logo {
     width: 185px;
     height: 185px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.25); }
+    @media screen and (max-width: 480px) {
+      .intro .logo {
+        margin: 0 auto; } }
     .intro .logo h1 {
       display: block;
       font-family: "baron", sans-serif;
@@ -522,6 +545,15 @@ body {
     text-align: justify; }
     .intro .intro-text:last-child {
       margin-right: 0; }
+    @media screen and (max-width: 480px) {
+      .intro .intro-text {
+        float: left;
+        display: block;
+        margin-right: 7.42297%;
+        width: 100%;
+        margin-left: 0%; }
+        .intro .intro-text:last-child {
+          margin-right: 0; } }
     .intro .intro-text span {
       font-family: "baron-black", sans-serif;
       color: #a55757;
@@ -535,6 +567,9 @@ body {
     color: #769489;
     font-weight: normal;
     margin: 0.5em 0; }
+    @media screen and (max-width: 480px) {
+      .resume h2 {
+        text-align: center; } }
   .resume .resume-block {
     max-width: 68em;
     margin-left: auto;
@@ -552,6 +587,15 @@ body {
       background: transparent; }
       .resume .resume-block .resume-year:last-child {
         width: 14.70196%; }
+      @media screen and (max-width: 480px) {
+        .resume .resume-block .resume-year {
+          float: left;
+          display: block;
+          width: 107.42297%;
+          text-align: center;
+          font-size: 1.25em; }
+          .resume .resume-block .resume-year:last-child {
+            width: 100%; } }
       .resume .resume-block .resume-year h4 {
         font-family: "PT Sans", sans-serif;
         color: #a55757;
@@ -566,6 +610,14 @@ body {
       border-left: 10px solid #d9b76f; }
       .resume .resume-block .resume-entry:last-child {
         margin-right: 0; }
+      @media screen and (max-width: 480px) {
+        .resume .resume-block .resume-entry {
+          float: left;
+          display: block;
+          margin-right: 7.42297%;
+          width: 100%; }
+          .resume .resume-block .resume-entry:last-child {
+            margin-right: 0; } }
       .resume .resume-block .resume-entry h3 {
         font-family: "baron", sans-serif; }
       .resume .resume-block .resume-entry p {
@@ -574,10 +626,14 @@ body {
 .stack p {
   text-align: center; }
   .stack p span {
+    display: inline-block;
     margin: 0 0.5em;
     padding: 0.5em 1em;
     background: rgba(255, 255, 255, 0.25);
     color: #4c4c4c; }
+    @media screen and (max-width: 480px) {
+      .stack p span {
+        margin: 1em 0.5em; } }
 
 .feature-stack-text {
   margin: 3em 0; }
@@ -603,6 +659,19 @@ body {
       color: #485c55; }
       .feature-stack-text ul li:last-child {
         margin-right: 0; }
+      @media screen and (max-width: 480px) {
+        .feature-stack-text ul li {
+          float: left;
+          display: block;
+          margin-right: 7.42297%;
+          width: 46.28851%;
+          width: 120px;
+          height: 120px;
+          text-align: center;
+          margin-top: 1em;
+          margin-bottom: 1em; }
+          .feature-stack-text ul li:last-child {
+            margin-right: 0; } }
       .feature-stack-text ul li span {
         display: block;
         margin: 0.75em 0 0.15em;
@@ -623,6 +692,9 @@ body {
     color: rgba(51, 51, 51, 0.75);
     font-size: 1em;
     padding: 0 0.5em; }
+    @media screen and (max-width: 480px) {
+      .stack-environment-text ul li {
+        padding: 0.5em; } }
     .stack-environment-text ul li:hover {
       color: #a55757;
       cursor: default; }
@@ -659,6 +731,15 @@ body {
   padding: 1em 0; }
   .contact-text:last-child {
     margin-right: 0; }
+  @media screen and (max-width: 480px) {
+    .contact-text {
+      float: left;
+      display: block;
+      margin-right: 7.42297%;
+      width: 100%;
+      margin-left: 0%; }
+      .contact-text:last-child {
+        margin-right: 0; } }
   .contact-text p {
     color: #4c4c4c;
     font-size: 1.25em; }
