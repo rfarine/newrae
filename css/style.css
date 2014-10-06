@@ -474,7 +474,9 @@ body {
   @media screen and (max-width: 480px) {
     .section {
       padding-top: 1em;
-      padding-bottom: 1em; } }
+      padding-bottom: 1em;
+      width: 90%;
+      margin: 0 auto; } }
   .section section {
     max-width: 68em;
     margin-left: auto;
@@ -483,10 +485,6 @@ body {
       content: "";
       display: table;
       clear: both; }
-    @media screen and (max-width: 480px) {
-      .section section {
-        width: 90%;
-        margin: 0 auto; } }
 
 .intro {
   margin-top: 4em;
@@ -647,6 +645,9 @@ body {
       content: "";
       display: table;
       clear: both; }
+    @media screen and (max-width: 480px) {
+      .feature-stack-text ul {
+        padding: 0; } }
     .feature-stack-text ul li {
       float: left;
       display: block;
@@ -657,21 +658,11 @@ body {
       border-radius: 50%;
       background: #769489;
       color: #485c55; }
-      .feature-stack-text ul li:last-child {
-        margin-right: 0; }
       @media screen and (max-width: 480px) {
         .feature-stack-text ul li {
-          float: left;
-          display: block;
-          margin-right: 7.42297%;
-          width: 46.28851%;
-          width: 120px;
-          height: 120px;
-          text-align: center;
-          margin-top: 1em;
-          margin-bottom: 1em; }
-          .feature-stack-text ul li:last-child {
-            margin-right: 0; } }
+          margin: 1em 0.5em; } }
+      .feature-stack-text ul li:last-child {
+        margin-right: 0; }
       .feature-stack-text ul li span {
         display: block;
         margin: 0.75em 0 0.15em;

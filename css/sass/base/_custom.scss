@@ -9,10 +9,9 @@ body {
 
 .section {
   @include padding(3em null);
-  @include media($mobile) { @include padding(1em null); }
+  @include media($mobile) { @include padding(1em null); width: 90%; margin: 0 auto; }
   section {
     @include outer-container;
-    @include media($mobile) { width: 90%; margin: 0 auto; }
   }
 }
 
@@ -130,20 +129,15 @@ body {
     text-align: center;
     @include padding(2em 1.5em);
     @include outer-container;
+    @include media($mobile) { @include padding(0); }
     li {
+      @include media($mobile) { @include margin(1em 0.5em); } 
       @include span-columns(1);
       width: 125px;
       height: 125px;
       border-radius: 50%;
       background: $feature-stack-circle-background;
       color: $feature-stack-circle-text-color;
-      @include media($mobile) { 
-        @include span-columns(2); 
-        width: 120px;
-        height: 120px;
-        text-align: center;
-        @include margin(1em null);
-      } 
       span {
         display: block;
         @include margin(0.75em 0 0.15em 0);
