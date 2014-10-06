@@ -66,6 +66,11 @@
       background: $blue;
       li { border-bottom: 1px solid fade-out($blue, 0.15); }
     }
+    @include media($tablet) {
+      border-top: 1px solid fade-out($blue, 0.15);
+      background: $blue;
+      li { border-bottom: 1px solid fade-out($blue, 0.15); }
+    }
   }
 
   // The nav items

@@ -280,7 +280,13 @@ input[type="submit"] {
       .centered-navigation ul.centered-navigation-menu {
         display: block;
         text-align: center; } }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 640px) {
+      .centered-navigation ul.centered-navigation-menu {
+        border-top: 1px solid rgba(118, 148, 137, 0.85);
+        background: #769489; }
+        .centered-navigation ul.centered-navigation-menu li {
+          border-bottom: 1px solid rgba(118, 148, 137, 0.85); } }
+    @media screen and (max-width: 768px) {
       .centered-navigation ul.centered-navigation-menu {
         border-top: 1px solid rgba(118, 148, 137, 0.85);
         background: #769489; }
@@ -485,11 +491,17 @@ body {
 .section {
   padding-top: 3em;
   padding-bottom: 3em; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 640px) {
     .section {
       padding-top: 1em;
       padding-bottom: 1em;
       width: 90%;
+      margin: 0 auto; } }
+  @media screen and (max-width: 768px) {
+    .section {
+      padding-top: 1em;
+      padding-bottom: 1em;
+      width: 95%;
       margin: 0 auto; } }
   .section section {
     max-width: 68em;
@@ -503,7 +515,7 @@ body {
 .intro {
   margin-top: 4em;
   background-color: rgba(217, 211, 198, 0.5); }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 640px) {
     .intro {
       margin-top: 1em; } }
   .intro article {
@@ -521,7 +533,7 @@ body {
     width: 14.70196%; }
     .intro .logo-container:last-child {
       margin-right: 0; }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 640px) {
       .intro .logo-container {
         float: left;
         display: block;
@@ -530,12 +542,24 @@ body {
         margin-bottom: 4em; }
         .intro .logo-container:last-child {
           margin-right: 0; } }
+    @media screen and (max-width: 768px) {
+      .intro .logo-container {
+        float: left;
+        display: block;
+        margin-right: 3.57866%;
+        width: 100%;
+        margin-bottom: 3em; }
+        .intro .logo-container:last-child {
+          margin-right: 0; } }
   .intro .logo {
     width: 185px;
     height: 185px;
     border-radius: 50%;
     background-color: rgba(255, 255, 255, 0.25); }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 640px) {
+      .intro .logo {
+        margin: 0 auto; } }
+    @media screen and (max-width: 768px) {
       .intro .logo {
         margin: 0 auto; } }
     .intro .logo h1 {
@@ -557,11 +581,20 @@ body {
     text-align: justify; }
     .intro .intro-text:last-child {
       margin-right: 0; }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 640px) {
       .intro .intro-text {
         float: left;
         display: block;
         margin-right: 7.42297%;
+        width: 100%;
+        margin-left: 0%; }
+        .intro .intro-text:last-child {
+          margin-right: 0; } }
+    @media screen and (max-width: 768px) {
+      .intro .intro-text {
+        float: left;
+        display: block;
+        margin-right: 3.57866%;
         width: 100%;
         margin-left: 0%; }
         .intro .intro-text:last-child {
@@ -579,7 +612,7 @@ body {
     color: #769489;
     font-weight: normal;
     margin: 0.5em 0; }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 640px) {
       .resume h2 {
         text-align: center; } }
   .resume .resume-block {
@@ -599,7 +632,7 @@ body {
       background: transparent; }
       .resume .resume-block .resume-year:last-child {
         width: 14.70196%; }
-      @media screen and (max-width: 480px) {
+      @media screen and (max-width: 640px) {
         .resume .resume-block .resume-year {
           float: left;
           display: block;
@@ -622,7 +655,7 @@ body {
       border-left: 10px solid #d9b76f; }
       .resume .resume-block .resume-entry:last-child {
         margin-right: 0; }
-      @media screen and (max-width: 480px) {
+      @media screen and (max-width: 640px) {
         .resume .resume-block .resume-entry {
           float: left;
           display: block;
@@ -643,7 +676,7 @@ body {
     padding: 0.5em 1em;
     background: rgba(255, 255, 255, 0.25);
     color: #4c4c4c; }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 640px) {
       .stack p span {
         margin: 1em 0.5em; } }
 
@@ -659,7 +692,7 @@ body {
       content: "";
       display: table;
       clear: both; }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 640px) {
       .feature-stack-text ul {
         padding: 0; } }
     .feature-stack-text ul li {
@@ -672,9 +705,14 @@ body {
       border-radius: 50%;
       background: #769489;
       color: #485c55; }
-      @media screen and (max-width: 480px) {
+      @media screen and (max-width: 640px) {
         .feature-stack-text ul li {
           margin: 1em 0.5em; } }
+      @media screen and (max-width: 768px) {
+        .feature-stack-text ul li {
+          margin: 1em 0.55em;
+          width: 150px;
+          height: 150px; } }
       .feature-stack-text ul li:last-child {
         margin-right: 0; }
       .feature-stack-text ul li span {
@@ -684,9 +722,19 @@ body {
         font-size: 2.5em;
         font-weight: normal;
         color: #d9d3c6; }
+        @media screen and (max-width: 768px) {
+          .feature-stack-text ul li span {
+            margin: 0.75em 0 0.15em;
+            font-size: 3em; } }
       .feature-stack-text ul li:hover {
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
         color: #5e796f; }
         .feature-stack-text ul li:hover span {
+          -webkit-transition: all 0.2s ease-in-out;
+          -moz-transition: all 0.2s ease-in-out;
+          transition: all 0.2s ease-in-out;
           color: #5e796f; }
 
 .stack-environment-text ul {
@@ -697,7 +745,7 @@ body {
     color: rgba(51, 51, 51, 0.75);
     font-size: 1em;
     padding: 0 0.5em; }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 640px) {
       .stack-environment-text ul li {
         padding: 0.5em; } }
     .stack-environment-text ul li:hover {
@@ -726,7 +774,7 @@ body {
     font-family: "baron-bold", sans-serif;
     color: #769489;
     font-weight: normal; }
-    @media screen and (max-width: 480px) {
+    @media screen and (max-width: 640px) {
       .contact h1 {
         text-align: center; } }
 
@@ -739,7 +787,7 @@ body {
   padding: 1em 0; }
   .contact-text:last-child {
     margin-right: 0; }
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: 640px) {
     .contact-text {
       float: left;
       display: block;

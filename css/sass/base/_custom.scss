@@ -10,6 +10,7 @@ body {
 .section {
   @include padding(3em null);
   @include media($mobile) { @include padding(1em null); width: 90%; margin: 0 auto; }
+  @include media($tablet) { @include padding(1em null); width: 95%; margin: 0 auto; }
   section {
     @include outer-container;
   }
@@ -29,6 +30,10 @@ body {
       @include span-columns(4);
       @include margin(null null 4em null)
     }
+    @include media($tablet) { 
+      @include span-columns(8);
+      @include margin(null null 3em null)
+    }
   }
   .logo {
     width: 185px;
@@ -36,6 +41,7 @@ body {
     border-radius: 50%;
     background-color: $logo-background-color;
     @include media($mobile) { margin: 0 auto; }
+    @include media($tablet) { margin: 0 auto; }
     h1 {
       display: block;
       font-family: $intro-header-font-family;
@@ -51,6 +57,10 @@ body {
     @include shift(1);
     @include media($mobile) {
       @include span-columns(4);
+      @include shift(0);
+    }
+    @include media($tablet) {
+      @include span-columns(8);
       @include shift(0);
     }
     font-size: $intro-text-font-size;
@@ -132,6 +142,11 @@ body {
     @include media($mobile) { @include padding(0); }
     li {
       @include media($mobile) { @include margin(1em 0.5em); } 
+      @include media($tablet) { 
+        @include margin(1em 0.55em);
+        width: 150px;
+        height: 150px;
+      } 
       @include span-columns(1);
       width: 125px;
       height: 125px;
@@ -145,10 +160,13 @@ body {
         font-size: 2.5em;
         font-weight: normal;
         color: $peach;
+        @include media($tablet) { @include margin(0.75em 0 0.15em 0); font-size: 3em; }
       }
       &:hover {
+        @include transition (all 0.2s ease-in-out);
         color: $feature-stack-text-hover;
         span {
+          @include transition (all 0.2s ease-in-out);
           color: $feature-stack-text-hover;
         }
       }
