@@ -60,6 +60,12 @@
       display: block;
       text-align: center;
     }
+
+    @include media($mobile) {
+      border-top: 1px solid fade-out($blue, 0.15);
+      background: $blue;
+      li { border-bottom: 1px solid fade-out($blue, 0.15); }
+    }
   }
 
   // The nav items

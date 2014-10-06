@@ -272,6 +272,12 @@ input[type="submit"] {
       .centered-navigation ul.centered-navigation-menu {
         display: block;
         text-align: center; } }
+    @media screen and (max-width: 480px) {
+      .centered-navigation ul.centered-navigation-menu {
+        border-top: 1px solid rgba(118, 148, 137, 0.85);
+        background: #769489; }
+        .centered-navigation ul.centered-navigation-menu li {
+          border-bottom: 1px solid rgba(118, 148, 137, 0.85); } }
   @media screen and (min-width: 53.75em) {
     .centered-navigation .nav-link:first-child {
       margin-left: 2.2em; } }
