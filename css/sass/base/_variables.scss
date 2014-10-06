@@ -109,9 +109,10 @@ $success-color: $blue;
 
 // Forms
 $form-background-color: fade-out($white, 0.75);
-$form-background-color-hover: fade-out($blue, 0.75);
+$form-background-color-hover: fade-out($white, 0.5);
 $form-background-color-focus: $form-background-color-hover;
-$form-border-color: $base-border-color;
+$form-border-color: $yellow;
+$form-border-focus-color: $blue;
 $form-border-radius: $base-border-radius;
 $form-font-size: $base-font-size;
 $form-font-family: $base-font-family;

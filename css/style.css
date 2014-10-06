@@ -124,12 +124,16 @@ select[multiple=multiple] {
   color: #a55757;
   background-color: rgba(255, 255, 255, 0.25);
   border-radius: 0em;
-  border: 1px solid transparent;
+  border: 0;
+  border-left: 5px solid #d9b76f;
   font-family: "PT Sans", sans-serif;
   font-size: 1em;
   margin-bottom: 0.75em;
   padding: 0.5em 0.5em;
-  width: 100%; }
+  width: 100%;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out; }
   textarea::-webkit-input-placeholder,
   input[type="email"]::-webkit-input-placeholder, input[type="number"]::-webkit-input-placeholder, input[type="password"]::-webkit-input-placeholder, input[type="search"]::-webkit-input-placeholder, input[type="tel"]::-webkit-input-placeholder, input[type="text"]::-webkit-input-placeholder, input[type="url"]::-webkit-input-placeholder, input[type="color"]::-webkit-input-placeholder, input[type="date"]::-webkit-input-placeholder, input[type="datetime"]::-webkit-input-placeholder, input[type="datetime-local"]::-webkit-input-placeholder, input[type="month"]::-webkit-input-placeholder, input[type="time"]::-webkit-input-placeholder, input[type="week"]::-webkit-input-placeholder,
   select[multiple=multiple]::-webkit-input-placeholder {
@@ -149,11 +153,15 @@ select[multiple=multiple] {
   textarea:hover,
   input[type="email"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="url"]:hover, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="month"]:hover, input[type="time"]:hover, input[type="week"]:hover,
   select[multiple=multiple]:hover {
-    background-color: rgba(118, 148, 137, 0.25); }
+    background-color: rgba(255, 255, 255, 0.5);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out; }
   textarea:focus,
   input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus,
   select[multiple=multiple]:focus {
-    background-color: rgba(118, 148, 137, 0.25);
+    background-color: rgba(255, 255, 255, 0.5);
+    border-left: 5px solid #769489;
     outline: none; }
 
 textarea {
@@ -718,6 +726,9 @@ body {
     font-family: "baron-bold", sans-serif;
     color: #769489;
     font-weight: normal; }
+    @media screen and (max-width: 480px) {
+      .contact h1 {
+        text-align: center; } }
 
 .contact-text {
   float: left;

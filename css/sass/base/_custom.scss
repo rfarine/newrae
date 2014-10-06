@@ -193,6 +193,7 @@ body {
     font-family: $contact-header-font-family;
     color: $contact-header-color;
     font-weight: normal;
+    @include media($mobile) { text-align: center; }
   }
 }
 
