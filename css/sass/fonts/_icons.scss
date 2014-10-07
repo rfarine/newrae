@@ -1,0 +1,60 @@
+@include font-face(pictonic, "../../fonts/pictonic/pictonic");
+ 
+.icon
+{
+  font-family: "pictonic";
+  font-weight: normal; font-style: normal;
+  -webkit-font-smoothing:  antialiased !important;
+  -moz-font-smoothing:  antialiased !important;
+  -moz-osx-font-smoothing: grayscale !important; 
+  font-smoothing:  antialiased !important;
+  line-height:1em;
+}
+ 
+a.icon, span.icon, small.icon {
+  display: -moz-inline-stack;
+  display:inline-block;
+  zoom: 1;
+  *display: inline;
+}
+ 
+[class^="icon-"], [class*="icon-"]
+{
+  font-family: "pictonic";
+  font-weight: normal; font-style: normal;
+  -webkit-font-smoothing:  antialiased !important;
+  -moz-font-smoothing:  antialiased !important;
+  font-smoothing:  antialiased !important;
+  line-height:1em;
+}
+ 
+a[class^="icon-"], a[class*="icon-"], span[class^="icon-"], span[class*="icon-"], small[class^="icon-"], small[class*="icon-"] {
+  display: -moz-inline-stack;
+  display:inline-block;
+  zoom: 1;
+  *display: inline;
+}
+  
+ 
+.icon-dbs-postgresql:before { content:""; } 
+.icon-dbs-redis:before { content:""; } 
+.icon-vc-git:before { content:""; } 
+.icon-prog-ruby:before { content:""; } 
+.icon-prog-js02:before { content:""; } 
+.icon-prog-coffeescr:before { content:""; } 
+.icon-prog-rails:before { content:""; } 
+.icon-html5-02:before { content:""; } 
+.icon-css3-02:before { content:""; } 
+.icon-prog-jquery:before { content:""; } 
+.icon-adb-illustrator:before { content:""; } 
+.icon-adb-indesign:before { content:""; } 
+.icon-adb-photoshop:before { content:""; } 
+.icon-os-linux:before { content:""; } 
+.icon-os-apple:before { content:""; } 
+.icon-dbs-mysql:before { content:""; } 
+.icon-dbs-sqlite:before { content:""; } 
+.icon-prog-bash02:before { content:""; }
+.icon-github-01:before { content:""; }
+.icon-twitter-3:before { content:""; } 
+.icon-linkedin:before { content:""; } 
+.icon-tumblr:before { content:""; }

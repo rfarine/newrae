@@ -1,55 +1,158 @@
 <html>
 <head>
   <title>Rae Farine</title>
+  <link href='http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/style.css">
+  <!--[if lt IE 8]><script src="../pictonic/js/pictonic.min.js"></script><![endif]-->
 </head>
 
 <body>
-  <div class="grid-items-lines">
-  <a href="javascript:void(0)" class="grid-item">
-    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1_dark.png" alt="">
-    <h1>Grid Item</h1>
-    <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>
-  </a>
-  <a href="javascript:void(0)" class="grid-item">
-    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3_dark.png" alt="">
-    <h1>Another Item</h1>
-    <p>Lorem ipsum consectetur dolor sit amet, consectetur adipisicing elit.</p>
-  </a>
-  <a href="javascript:void(0)" class="grid-item">
-    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2_dark.png" alt="">
-    <h1>Another Grid Item</h1>
-    <p>Lorem ipsum dolor sit amet, elit.</p>
-  </a>
-  <a href="javascript:void(0)" class="grid-item">
-    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2_dark.png" alt="">
-    <h1>Grid Item</h1>
-    <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>
-  </a>
-  <a href="javascript:void(0)" class="grid-item grid-item-big">
-    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2_dark.png" alt="">
-    <h1>Wider Grid Item</h1>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, illum.</p>
-  </a>
-  <a href="javascript:void(0)" class="grid-item">
-    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_3_dark.png" alt="">
-    <h1>A Grid Item</h1>
-    <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>
-  </a>
-  <a href="javascript:void(0)" class="grid-item">
-    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_1_dark.png" alt="">
-    <h1>Item</h1>
-    <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>
-  </a>
-  <a href="javascript:void(0)" class="grid-item">
-    <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/placeholder_logo_2_dark.png" alt="">
-    <h1>Last Grid Item</h1>
-    <p>Lorem ipsum dolor sit amet, elit. Rem, illum.</p>
-  </a>
-  <div class="right-cover"></div>
-  <div class="bottom-cover"></div>
-</div>
+<div class="container">
+  <header class="centered-navigation">
+    <div class="centered-navigation-wrapper">
+      <a href="" class="centered-navigation-menu-button">MENU</a>
+      <ul class="centered-navigation-menu">
+        <li class="nav-link"><a href="#about">About</a></li>
+        <li class="nav-link"><a href="#contact">Contact</a></li>
+        <li class="nav-link"><a href="#links">Links</a></li>
+      </ul>
+    </div>
+  </header>
+  <div class="section intro">
+    <section>
+      <article>
+        <div class="logo-container">
+          <div class="logo">
+            <h1>RF</h1>
+          </div>
+        </div>
+        <p class="intro-text"><span>Lorem ipsum dolor sit amet</span>, consectetur adipisicing elit. Consequatur a, ullam, voluptatum incidunt neque doloremque vel inventore distinctio laudantium harum illo quam nulla dolor alias iure impedit!</p>
+      </article>
+    </section>
+  </div><!-- end of .intro -->
 
+  <div class="section resume" id="about">
+    <section>
+      <article>
+        <h2>abOut</h2>
+        <div class="resume-block">
+          <div class="resume-year">
+            <h4>2013 - NOW</h4>
+          </div>
+          <div class="resume-entry">
+            <h3>Job Title at <a href="#">Job</a> - City, State</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, a, ullam, voluptatum incidunt neque porro numquam doloremque vel inventore distinctio laudantium harum illo quam nulla dolor alias iure impedit.</p>
+          </div>
+        </div>
+        <div class="resume-block">
+          <div class="resume-year">
+            <h4>2012 - 13</h4>
+          </div>
+          <div class="resume-entry">
+            <h3>Job Title at <a href="#">Job</a> - City, State</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, a, ullam, voluptatum incidunt neque porro numquam doloremque vel inventore distinctio laudantium harum illo quam nulla dolor alias iure impedit.</p>
+          </div>
+        </div>
+      </article>
+
+      <div class="stack">
+        <article >
+          <div class="feature-stack-text">
+            <ul>
+              <li><span class="icon-html5-02"></span>HTML5</li>
+              <li><span class="icon-css3-02"></span>CSS3</li>
+              <li><span class="icon-prog-jquery"></span>jQuery</li>
+              <li><span class="icon-prog-coffeescr"></span>.coffee</li>
+              <li><span class="icon-prog-js02"></span>JS</li>
+              <li><span class="icon-prog-ruby"></span>ruby</li>
+              <li><span class="icon-prog-rails"></span>Rails</li>
+            </ul>
+            <p>
+              <span>Ember.js</span> <span>AJAX</span> <span>Rspec/Qunit</span>
+            </p>
+          </div>
+        </article>
+        <article>
+            <div class="stack-environment-text">
+              <ul class="stack-environment-list">
+                <li class="tooltip-item"><span class="icon-dbs-postgresql"></span> <div class="tooltip"><p>postgresql</p></div></li>
+                <li class="tooltip-item"><span class="icon-dbs-mysql"></span> <div class="tooltip"><p>mysql</p></div></li>
+                <li class="tooltip-item"><span class="icon-dbs-sqlite"></span> <div class="tooltip"><p>sqlite</p></div></li>
+                <li class="tooltip-item"><span class="icon-vc-git"></span> <div class="tooltip"><p>git</p></div></li>
+                <li class="tooltip-item"><span class="icon-os-apple"></span> <div class="tooltip"><p>mac os x</p></div></li>
+                <li class="tooltip-item"><span class="icon-os-linux"></span> <div class="tooltip"><p>linux</p></div></li>
+                <li class="tooltip-item"><span class="icon-prog-bash02"></span> <div class="tooltip"><p>bash</p></div></li>
+                <li class="tooltip-item"><span class="icon-dbs-redis"></span> <div class="tooltip"><p>redis</p></div></li>
+                <li class="tooltip-item"><span class="icon-adb-photoshop"></span><div class="tooltip"><p>photoshop</p></div></li>
+                <li class="tooltip-item"><span class="icon-adb-illustrator"></span> <div class="tooltip"><p>illustrator</p></div></li>
+                <li class="tooltip-item"><span class="icon-adb-indesign"></span> <div class="tooltip"><p>indesign</p></div></li>
+              </ul>
+              <p>
+                <span>Heroku</span> <span>Vim</span> <span>RVM</span> <span>rbenv</span> <span>.pow</span> <span>Jenkins</span> <span>Airbrake</span>
+              </p>
+            </div>
+        </article>
+      </div>
+    </section>
+  </div><!-- end of .resume -->
+
+  <div class="section contact" id="contact">
+    <article>
+      <div class="contact-text">
+        <h1>CONTACT ME</h1>
+
+        <p>Feel free to contact me regarding new opportunities, side projects, and overall feedback!</p>
+
+        <form id="contact-form" method="POST" action="">
+
+        <div id="contact-form-messages"></div>
+        
+        <p>
+          <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+        </p>
+        
+        <p>
+          <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+        </p>
+
+        <p>
+          <input name="url" type="text" class="feedback-input" id="url" placeholder="http://" />
+        </p>
+        
+        <p>
+          <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+        </p>
+        
+        <div class="submit">
+          <input type="submit" value="SEND" />
+        </div>
+      </form>
+    </div>
+    </article>
+  </div><!-- end of .contact -->
+
+  <footer class="footer" id="links">
+      <ul>
+        <li><a href="#" class="icon-github-01" title="Github"></a></li>
+        <li><a href="#" class="icon-twitter-3" title="Twitter"></a></li>
+        <li><a href="#" class="icon-linkedin" title="LinkedIn"></a></li>
+        <li><a href="#" class="icon-tumblr" title="Tumblr"></a></li>
+      </ul>
+
+  <hr>
+
+  <p>
+    &copy; Copyright Rae Farine - 2014<br>
+    Fonts: <a href="http://fontfabric.com/baron-free-font/">Baron - Font Fabric</a> and <a href="https://pictonic.co/">Pictonic</a>.
+  </p>
+</footer>
+
+
+</div> <!-- end of .container -->
+<script src='http://code.jquery.com/jquery-2.1.1.min.js'></script>
+<script src='https://code.jquery.com/ui/1.11.1/jquery-ui.min.js'></script>
+<script src='js/navigation.js'></script>
+<script src='js/form.js'></script>
 </body>
 
 </html>
