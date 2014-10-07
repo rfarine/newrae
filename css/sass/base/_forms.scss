@@ -82,14 +82,22 @@ select {
 }
 
 #contact-form-messages {
-  color: darken($error-color, 10);
   text-align: center;
-  &.error {
+  &.success, &.error {
     @include padding(1em 2em);
     @include margin(null null 2em null);
+    @include transition (all 0.5s ease-in-out);
+  }
+  &.success {
+    color: darken($success-color, 10);
+    border-left: 5px solid $success-color;
+    border-right: 5px solid $success-color;
+    background: fade-out($success-color, 0.5);
+  }
+  &.error {
+    color: darken($error-color, 10);
     border-left: 5px solid $error-color;
     border-right: 5px solid $error-color;
     background: fade-out($error-color, 0.5);
-    @include transition (all 0.5s ease-in-out);
   }
 }

@@ -29,7 +29,7 @@
             echo "Thank You! Your message has been sent.";
         } else {
             http_response_code(500);
-            echo "Oops! Something went wrong and we couldn't send your message.";
+            echo "Oops! Something went wrong and we couldn't send your message. Please try again.";
         }
 
     } else {

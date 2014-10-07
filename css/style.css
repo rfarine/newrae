@@ -189,17 +189,23 @@ select {
   margin-bottom: 1.5em; }
 
 #contact-form-messages {
-  color: #844545;
   text-align: center; }
-  #contact-form-messages.error {
+  #contact-form-messages.success, #contact-form-messages.error {
     padding: 1em 2em;
     margin-bottom: 2em;
-    border-left: 5px solid #a55757;
-    border-right: 5px solid #a55757;
-    background: rgba(165, 87, 87, 0.5);
     -webkit-transition: all 0.5s ease-in-out;
     -moz-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out; }
+  #contact-form-messages.success {
+    color: #5e796f;
+    border-left: 5px solid #769489;
+    border-right: 5px solid #769489;
+    background: rgba(118, 148, 137, 0.5); }
+  #contact-form-messages.error {
+    color: #844545;
+    border-left: 5px solid #a55757;
+    border-right: 5px solid #a55757;
+    background: rgba(165, 87, 87, 0.5); }
 
 table {
   border-collapse: collapse;
