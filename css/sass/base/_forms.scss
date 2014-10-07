@@ -80,3 +80,16 @@ select {
   max-width: 100%;
   margin-bottom: $base-line-height;
 }
+
+#contact-form-messages {
+  color: darken($error-color, 10);
+  text-align: center;
+  &.error {
+    @include padding(1em 2em);
+    @include margin(null null 2em null);
+    border-left: 5px solid $error-color;
+    border-right: 5px solid $error-color;
+    background: fade-out($error-color, 0.5);
+    @include transition (all 0.5s ease-in-out);
+  }
+}
