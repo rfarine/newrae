@@ -19,7 +19,7 @@
 
         $email_content = "Name: $name\n";
         $email_content .= "Email: $email\n\n";
-        $email_content .= "URL: $url\n\n"
+        $email_content .= "URL: $url\n\n";
         $email_content .= "Comment:\n$comment\n";
         
         $email_headers = "From: $name <$email>";
