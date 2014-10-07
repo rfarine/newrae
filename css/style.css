@@ -121,7 +121,7 @@ select[multiple=multiple] {
   -webkit-transition: border-color;
   -moz-transition: border-color;
   transition: border-color;
-  color: #a55757;
+  color: #769489;
   background-color: rgba(255, 255, 255, 0.25);
   border-radius: 0em;
   border: 0;
@@ -187,6 +187,19 @@ select {
   width: auto;
   max-width: 100%;
   margin-bottom: 1.5em; }
+
+#contact-form-messages {
+  color: #844545;
+  text-align: center; }
+  #contact-form-messages.error {
+    padding: 1em 2em;
+    margin-bottom: 2em;
+    border-left: 5px solid #a55757;
+    border-right: 5px solid #a55757;
+    background: rgba(165, 87, 87, 0.5);
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out; }
 
 table {
   border-collapse: collapse;
